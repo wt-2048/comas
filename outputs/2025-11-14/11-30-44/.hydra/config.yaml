@@ -1,0 +1,115 @@
+default_agent:
+  save_path: ${saving.output_dir}
+  ckpt_path: ${saving.ckpt_dir}
+  max_model_len: ${llm.max_model_len}
+ray:
+  address: null
+  num_cpus: 16
+  num_gpus: 1
+  object_store_memory: null
+  resources:
+    llm_actor:
+      num_cpus: 2
+      num_gpus: 1
+    exp_maker:
+      num_cpus: 2
+      num_gpus: 0
+    learner:
+      num_cpus: 4
+      num_gpus: 0
+llm:
+  engine: vllm
+  model_name: qwen2.5-3b-instruct
+  max_model_len: 8192
+  tensor_parallel_size: 1
+  gpu_memory_utilization: 0.92
+  trust_remote_code: true
+  dtype: bfloat16
+  enforce_eager: false
+  generation:
+    temperature: 1.0
+    top_p: 1.0
+    max_new_tokens: 512
+    stop: []
+  evaluation_generation:
+    temperature: 0.7
+    top_p: 1.0
+    max_new_tokens: 256
+interaction:
+  num_agents: 4
+  rounds_per_question: 8
+  evals_per_solution: 1
+  history_horizon: 2
+  enable_evaluation: true
+  enable_scoring: true
+  roles:
+  - solver
+  - evaluator
+  - scorer
+reward:
+  score_extractor:
+    type: regex
+    pattern: <score>\s*([123])\s*</score>
+    flags:
+    - IGNORECASE
+    - MULTILINE
+  normalize_to_unit: true
+  zero_sum: true
+  scorer_format_penalty: -1.0
+  missing_score_fallback: 2
+  debug_dump_bad_scores: true
+data:
+  datasets:
+  - name: gsm8k_math_mix
+    path: /root/siton-data-WWDisk/datasets/gsm8k_math_mix.jsonl
+    shuffle: true
+  micro_rollout_batch_size: 2
+  macro_rollout_batch_size: 64
+  micro_train_batch_size: 2
+  macro_train_batch_size: 64
+experience_maker:
+  pad_to_multiple_of: 64
+  align_advantages: fixed
+  advantages_target_len: 512
+  mask_invalid_at_compute: true
+  drop_all_empty: false
+replay_buffer:
+  max_size: 8192
+  pack_padding: true
+  normalize_advantages: true
+  expect_action_mask: true
+trainer:
+  algo: reinforce_pp
+  epochs: 1
+  grad_clip: 1.0
+  clip_eps: 0.2
+  kl_beta: 0.0
+  lr: 1.0e-06
+  weight_decay: 0.0
+  amp: true
+  gradient_checkpointing: true
+  max_grad_norm: 1.0
+  skip_empty_batch: true
+deepspeed:
+  enabled: true
+  zero_stage: 2
+  bf16: true
+  offload:
+    optimizer: false
+    parameters: false
+  gradient_accumulation_steps: 1
+  save_state_dict: true
+openai_compat:
+  enabled: false
+  base_url: ''
+  api_key: ''
+logging:
+  interval_steps: 10
+  save_interval_steps: 200
+  log_problem_samples: true
+  dump_raw_scoring: true
+saving:
+  output_dir: /root/siton-data-WWDisk/wt/CoMAS-main/saves/single_gpu
+  ckpt_dir: /root/siton-data-WWDisk/wt/CoMAS-main/saves/single_gpu/ckpt
+  actor_dir: ${oc.env:PWD}/saves/single_gpu/actor
+  critic_dir: ${oc.env:PWD}/saves/single_gpu/critic

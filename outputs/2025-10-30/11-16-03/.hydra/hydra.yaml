@@ -1,0 +1,211 @@
+hydra:
+  run:
+    dir: outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}
+  sweep:
+    dir: multirun/${now:%Y-%m-%d}/${now:%H-%M-%S}
+    subdir: ${hydra.job.num}
+  launcher:
+    _target_: hydra._internal.core_plugins.basic_launcher.BasicLauncher
+  sweeper:
+    _target_: hydra._internal.core_plugins.basic_sweeper.BasicSweeper
+    max_batch_size: null
+    params: null
+  help:
+    app_name: ${hydra.job.name}
+    header: '${hydra.help.app_name} is powered by Hydra.
+
+      '
+    footer: 'Powered by Hydra (https://hydra.cc)
+
+      Use --hydra-help to view Hydra specific help
+
+      '
+    template: '${hydra.help.header}
+
+      == Configuration groups ==
+
+      Compose your configuration from those groups (group=option)
+
+
+      $APP_CONFIG_GROUPS
+
+
+      == Config ==
+
+      Override anything in the config (foo.bar=value)
+
+
+      $CONFIG
+
+
+      ${hydra.help.footer}
+
+      '
+  hydra_help:
+    template: 'Hydra (${hydra.runtime.version})
+
+      See https://hydra.cc for more info.
+
+
+      == Flags ==
+
+      $FLAGS_HELP
+
+
+      == Configuration groups ==
+
+      Compose your configuration from those groups (For example, append hydra/job_logging=disabled
+      to command line)
+
+
+      $HYDRA_CONFIG_GROUPS
+
+
+      Use ''--cfg hydra'' to Show the Hydra config.
+
+      '
+    hydra_help: ???
+  hydra_logging:
+    version: 1
+    formatters:
+      simple:
+        format: '[%(asctime)s][HYDRA] %(message)s'
+    handlers:
+      console:
+        class: logging.StreamHandler
+        formatter: simple
+        stream: ext://sys.stdout
+    root:
+      level: INFO
+      handlers:
+      - console
+    loggers:
+      logging_example:
+        level: DEBUG
+    disable_existing_loggers: false
+  job_logging:
+    version: 1
+    formatters:
+      simple:
+        format: '[%(asctime)s][%(name)s][%(levelname)s] - %(message)s'
+    handlers:
+      console:
+        class: logging.StreamHandler
+        formatter: simple
+        stream: ext://sys.stdout
+      file:
+        class: logging.FileHandler
+        formatter: simple
+        filename: ${hydra.runtime.output_dir}/${hydra.job.name}.log
+    root:
+      level: INFO
+      handlers:
+      - console
+      - file
+    disable_existing_loggers: false
+  env: {}
+  mode: RUN
+  searchpath: []
+  callbacks: {}
+  output_subdir: .hydra
+  overrides:
+    hydra:
+    - hydra.mode=RUN
+    task:
+    - workflow_version=old
+    - parallel_loading=True
+    - default_agent.is_reasoning_model=False
+    - default_agent.ref_num_nodes=1
+    - default_agent.ref_num_gpus_per_node=1
+    - default_agent.critic_num_nodes=1
+    - default_agent.critic_num_gpus_per_node=1
+    - default_agent.actor_num_nodes=1
+    - default_agent.actor_num_gpus_per_node=1
+    - default_agent.vllm_num_engines=1
+    - default_agent.vllm_tensor_parallel_size=1
+    - default_agent.vllm_sync_backend=nccl
+    - default_agent.colocate_all_models=True
+    - default_agent.vllm_gpu_memory_utilization=0.5
+    - default_agent.flash_attn=True
+    - default_agent.pretrain=/root/siton-data-WWDisk/wt/Qwen2.5-3B-Instruct
+    - agents.0.agent-0.pretrain=/root/siton-data-WWDisk/wt/Qwen2.5-3B-Instruct
+    - agents.1.agent-1.pretrain=/root/siton-data-WWDisk/wt/Qwen2.5-3B-Instruct
+    - agents.2.agent-2.pretrain=/root/siton-data-WWDisk/wt/Qwen2.5-3B-Instruct
+    - agents.3.agent-3.pretrain=/root/siton-data-WWDisk/wt/Qwen2.5-3B-Instruct
+    - default_agent.save_path=/root/siton-data-WWDisk/wt/CoMAS-main/saves/comas_run/save
+    - default_agent.ckpt_path=/root/siton-data-WWDisk/wt/CoMAS-main/saves/comas_run/ckpt
+    - default_agent.micro_train_batch_size=1
+    - default_agent.train_batch_size=16
+    - default_agent.rollout_batch_size=32
+    - default_agent.micro_rollout_batch_size=1
+    - default_agent.num_episodes=1
+    - default_agent.max_epochs=1
+    - default_agent.save_steps=10
+    - default_agent.eval_steps=5
+    - default_agent.logging_steps=1
+    - default_agent.prompt_max_len=20000
+    - default_agent.generate_max_len=1536
+    - default_agent.advantage_estimator=reinforce
+    - default_agent.temperature=1.0
+    - default_agent.eval_temperature=0.7
+    - default_agent.bf16=True
+    - default_agent.actor_learning_rate=1e-6
+    - default_agent.critic_learning_rate=9e-6
+    - default_agent.use_kl_loss=True
+    - default_agent.init_kl_coef=0.0
+    - workflow_args.num_rounds=2
+    - workflow_args.num_references=2
+    - mask_truncated_completions=True
+    - shared_agents=False
+    - packing_samples=True
+    - prompt_data=json@/root/siton-data-WWDisk/wt/CoMAS-main/datasets/blended
+    - input_key=prompt
+    - label_key=answer
+    - extra_eval_dir=/root/siton-data-WWDisk/wt/CoMAS-main/datasets/separated
+    - extra_eval_tasks=[math,coding,science]
+    - use_wandb=False
+    - wandb_mode=offline
+    - wandb_key=
+    - wandb_path=/root/siton-data-WWDisk/wt/CoMAS-main/saves/comas_run
+    - wandb_project=comas
+    - wandb_run_name=comas_single_gpu_3b_safe_agents
+  job:
+    name: train
+    chdir: null
+    override_dirname: agents.0.agent-0.pretrain=/root/siton-data-WWDisk/wt/Qwen2.5-3B-Instruct,agents.1.agent-1.pretrain=/root/siton-data-WWDisk/wt/Qwen2.5-3B-Instruct,agents.2.agent-2.pretrain=/root/siton-data-WWDisk/wt/Qwen2.5-3B-Instruct,agents.3.agent-3.pretrain=/root/siton-data-WWDisk/wt/Qwen2.5-3B-Instruct,default_agent.actor_learning_rate=1e-6,default_agent.actor_num_gpus_per_node=1,default_agent.actor_num_nodes=1,default_agent.advantage_estimator=reinforce,default_agent.bf16=True,default_agent.ckpt_path=/root/siton-data-WWDisk/wt/CoMAS-main/saves/comas_run/ckpt,default_agent.colocate_all_models=True,default_agent.critic_learning_rate=9e-6,default_agent.critic_num_gpus_per_node=1,default_agent.critic_num_nodes=1,default_agent.eval_steps=5,default_agent.eval_temperature=0.7,default_agent.flash_attn=True,default_agent.generate_max_len=1536,default_agent.init_kl_coef=0.0,default_agent.is_reasoning_model=False,default_agent.logging_steps=1,default_agent.max_epochs=1,default_agent.micro_rollout_batch_size=1,default_agent.micro_train_batch_size=1,default_agent.num_episodes=1,default_agent.pretrain=/root/siton-data-WWDisk/wt/Qwen2.5-3B-Instruct,default_agent.prompt_max_len=20000,default_agent.ref_num_gpus_per_node=1,default_agent.ref_num_nodes=1,default_agent.rollout_batch_size=32,default_agent.save_path=/root/siton-data-WWDisk/wt/CoMAS-main/saves/comas_run/save,default_agent.save_steps=10,default_agent.temperature=1.0,default_agent.train_batch_size=16,default_agent.use_kl_loss=True,default_agent.vllm_gpu_memory_utilization=0.5,default_agent.vllm_num_engines=1,default_agent.vllm_sync_backend=nccl,default_agent.vllm_tensor_parallel_size=1,extra_eval_dir=/root/siton-data-WWDisk/wt/CoMAS-main/datasets/separated,extra_eval_tasks=[math,coding,science],input_key=prompt,label_key=answer,mask_truncated_completions=True,packing_samples=True,parallel_loading=True,prompt_data=json@/root/siton-data-WWDisk/wt/CoMAS-main/datasets/blended,shared_agents=False,use_wandb=False,wandb_key=,wandb_mode=offline,wandb_path=/root/siton-data-WWDisk/wt/CoMAS-main/saves/comas_run,wandb_project=comas,wandb_run_name=comas_single_gpu_3b_safe_agents,workflow_args.num_references=2,workflow_args.num_rounds=2,workflow_version=old
+    id: ???
+    num: ???
+    config_name: comas
+    env_set: {}
+    env_copy: []
+    config:
+      override_dirname:
+        kv_sep: '='
+        item_sep: ','
+        exclude_keys: []
+  runtime:
+    version: 1.3.2
+    version_base: '1.3'
+    cwd: /root/siton-data-WWDisk/wt/CoMAS-main
+    config_sources:
+    - path: hydra.conf
+      schema: pkg
+      provider: hydra
+    - path: /root/siton-data-WWDisk/wt/CoMAS-main/marti/cli/configs
+      schema: file
+      provider: main
+    - path: ''
+      schema: structured
+      provider: schema
+    output_dir: /root/siton-data-WWDisk/wt/CoMAS-main/outputs/2025-10-30/11-16-03
+    choices:
+      hydra/env: default
+      hydra/callbacks: null
+      hydra/job_logging: default
+      hydra/hydra_logging: default
+      hydra/hydra_help: default
+      hydra/help: default
+      hydra/sweeper: basic
+      hydra/launcher: basic
+      hydra/output: default
+  verbose: false

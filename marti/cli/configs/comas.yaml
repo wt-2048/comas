@@ -1,0 +1,21 @@
+# including default.yaml
+defaults:
+  - default
+  - _self_
+
+agent_workflow: "comas"
+
+workflow_args:
+  template_id: -1 # deprecated
+  num_rounds: 2
+  num_references: 2
+
+agents:
+  - agent-0:
+      pretrain: "/root/siton-data-WWDisk/wt/Qwen2.5-3B-Instruct"
+  - agent-1:
+      pretrain: "/root/siton-data-WWDisk/wt/Qwen2.5-3B-Instruct"
+  - agent-2:
+      pretrain: "/root/siton-data-WWDisk/wt/Qwen2.5-3B-Instruct"
+  - agent-3:
+      pretrain: "/root/siton-data-WWDisk/wt/Qwen2.5-3B-Instruct"

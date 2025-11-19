@@ -1,0 +1,23 @@
+# including default.yaml
+defaults:
+  - default
+  - _self_
+
+agent_workflow: "multi-agents-debate"
+
+workflow_args:
+  template_id: -1 # deprecated
+  num_rounds: 2
+  max_others: 2
+  contain_self: true
+  shuffle_responses: true
+
+agents:
+  - agent-0:
+      pretrain: "/root/siton-data-WWDisk/wt/Qwen2.5-3B-Instruct"
+  - agent-1:
+      pretrain: "/root/siton-data-WWDisk/wt/Qwen2.5-3B-Instruct"
+  - agent-2:
+      pretrain: "/root/siton-data-WWDisk/wt/Qwen2.5-3B-Instruct"
+  - agent-3:
+      pretrain: "/root/siton-data-WWDisk/wt/Qwen2.5-3B-Instruct"

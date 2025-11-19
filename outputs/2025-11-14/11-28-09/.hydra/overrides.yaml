@@ -1,0 +1,3 @@
+- saving.output_dir=/root/siton-data-WWDisk/wt/CoMAS-main/saves/single_gpu
+- saving.ckpt_dir=/root/siton-data-WWDisk/wt/CoMAS-main/saves/single_gpu/ckpt
+- llm.max_model_len=8192

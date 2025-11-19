@@ -1,0 +1,3 @@
+- default_agent.save_path=/root/siton-data-WWDisk/wt/CoMAS-main/saves/single_gpu/save
+- default_agent.ckpt_path=/root/siton-data-WWDisk/wt/CoMAS-main/saves/single_gpu/ckpt
+- default_agent.max_model_len=8192

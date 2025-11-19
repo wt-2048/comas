@@ -1,0 +1,21 @@
+# including default.yaml
+defaults:
+  - default
+  - _self_
+
+agent_workflow: "comas"
+
+workflow_args:
+  template_id: -1 # deprecated
+  num_rounds: 2
+  num_references: 2
+
+agents:
+  - agent-0:
+      pretrain: "/mnt/user/model/qwen2.5-3b-instruct"
+  - agent-1:
+      pretrain: "/mnt/user/model/qwen2.5-3b-instruct"
+  - agent-2:
+      pretrain: "/mnt/user/model/qwen2.5-3b-instruct"
+  - agent-3:
+      pretrain: "/mnt/user/model/qwen2.5-3b-instruct"

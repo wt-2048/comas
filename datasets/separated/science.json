@@ -1,0 +1,1402 @@
+[
+    {
+        "prompt": "The density of aluminum metal is 2.70 g/cm{eq}^3\n\n{/eq}. A cube of aluminum has a mass of 60.00 kg. Calculate the length of each side of the cube in inches. (1 inch = 2.54 centimeters)\n\nThe unit of the answer should be \"inch\".",
+        "answer": "11.07",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-32255"
+    },
+    {
+        "prompt": "At 700 degrees Celsius, Kc = 0.534. Calculate the number of moles of {eq}H_2\n\n{/eq} that are present at equilibrium if a mixture of 0.770 moles of {eq}CO\n\n{/eq} and 0.770 moles of {eq}H_2O\n\n{/eq} is heated to 700 degrees Celsius in a 50.0 L container.\n\nThe unit of the answer should be \"mol\".",
+        "answer": "0.325",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-09935"
+    },
+    {
+        "prompt": "A strip of copper {eq}150\\ \\mu m\n\n{/eq} thick and {eq}4.30\\ mm\n\n{/eq} wide is placed in a uniform magnetic field of magnitude {eq}B = 0.95\\ T\n\n{/eq}, that is perpendicular to the strip. A current {eq}i = 34\\ A\n\n{/eq} is then sent through the strip such that a Hall potential difference V appears across the width. Calculate V. (The number of charge carriers per unit volume for copper is {eq}\\displaystyle 8.47 \\times  10^{28}\\ electrons / m^3\n\n{/eq}.)\n\nThe unit of the answer should be \"V\".",
+        "answer": "0.0015889",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-10818"
+    },
+    {
+        "prompt": "Two children hang by their hands from the same tree branch. The branch is straight, and grows out from the tree at an angle of 26 degrees above the horizontal. One child, with a mass of 38 kg, is 1.1 m along the branch from the tree trunk. The other child, with a mass of 34 kg, is 2.9 m along the branch from the tree trunk. What is the magnitude of the net torque exerted on the branch by the children? Assume that the axis is located where the branch joins the tree trunk and is perpendicular to the plane formed by the branch and the trunk.\n\nThe unit of the answer should be \"N·m\".",
+        "answer": "1236.7",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-27204"
+    },
+    {
+        "prompt": "How much 6.00 M NaOH must be added to 600.0 mL of a buffer that is 0.0200 M acetic acid and 0.0250 M sodium acetate to raise the pH to 5.75? Answer in mL.\n\nThe unit of the answer should be \"mL\".",
+        "answer": "1.6",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-13986"
+    },
+    {
+        "prompt": "A {eq}12,000 \\ kg\n\n{/eq} lunar landing craft is about to touch down on the surface of the moon, where the acceleration due to gravity is {eq}1.6 \\ m/s^2.\n\n{/eq} At an altitude of {eq}158 \\ m\n\n{/eq} the craft's downward velocity is {eq}16.9 \\ m/s\n\n{/eq}. To slow down the craft, a retrorocket is firing to provide an upward thrust. Assuming the descent is vertical, find the magnitude of the thrust needed to reduce the velocity to zero at the instant when the craft touches the lunar surface. (in Newtons.)\n\nThe unit of the answer should be \"N\".",
+        "answer": "30048.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-13174"
+    },
+    {
+        "prompt": "An iron piece of mass 360 g and a density of 6 g/cm{eq}^3\n\n{/eq}. If suspended by a rope so that it is partially submerged in oil of density 0.9 g/cm find the tension (force) in the string.\n\nThe unit of the answer should be \"N\".",
+        "answer": "3.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-42721"
+    },
+    {
+        "prompt": "How many grams are in 3.8 moles of potassium sulfide?\n\nThe unit of the answer should be \"g\".",
+        "answer": "419.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-18608"
+    },
+    {
+        "prompt": "A cylinder has inner and outer radii of #16 cm# and #24 cm#, respectively, and a mass of #4 kg#.  If the cylinder's frequency of rotation about its center changes from #5 Hz# to #2 Hz#, by how much does its angular momentum change?\n\nThe unit of the answer should be \"kgm^2s^-1\".",
+        "answer": "3.14",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-43624"
+    },
+    {
+        "prompt": "A 0.40 kg block slides along a small track with elevated ends and a flat central part. The flat part has a length L = 1.78 m. The curved portions of the track are frictionless, but for the flat part the coefficient of kinetic friction is 0.163. The block is released from rest from a height h = 97 cm on the left curved portion of the track.\n\nCalculate the maximum height reached by the block on the right curved portion of the track.\n\nThe unit of the answer should be \"cm\".",
+        "answer": "68.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-12459"
+    },
+    {
+        "prompt": "A copper block of mass {eq}\\rm 2.5\\ kg\n\n{/eq} is heated in a furnace to a temperature of {eq}500 ^\\circ C\n\n{/eq} and then placed on a large ice block. What is the maximum amount of ice that can melt? (Specific heat of copper = {eq}\\rm 0.39\\ J g^{-1} K^{-1}\n\n{/eq}; heat of fusion of water = {eq}\\rm 335\\ J g^{-1}\n\n{/eq}).\n\nThe unit of the answer should be \"g\".",
+        "answer": "1455.2",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-28124"
+    },
+    {
+        "prompt": "A hockey puck of mass 0.23 kg is sliding along a slippery frozen lake, with an initial speed of 63 m/s. The coefficient of friction between the ice and the puck is {eq}\\mu\n\n{/eq}K = 0.034. Friction eventually causes the puck to slide to a stop. Find the work done by friction (in J).\n\nThe unit of the answer should be \"J\".",
+        "answer": "-456.435",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-50513"
+    },
+    {
+        "prompt": "What is the mass of one mole of calcium carbonate?\n\nThe unit of the answer should be \"g\".",
+        "answer": "100.11",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-45531"
+    },
+    {
+        "prompt": "Sunlight strikes a piece of crown glass at an angle of incidence of 33.2 degrees. Calculate the difference in the angle of refraction between a orange (610 nm) and a blue (470 nm) ray within the glass. The index of refraction is n=1.522 for orange and n=1.531 for blue light.\n\nThe unit of the answer should be \"degrees\".",
+        "answer": "0.13",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-20680"
+    },
+    {
+        "prompt": "In the process of separating {eq}Pb^{2+}\n\n{/eq} ions from {eq}Cu^{2+}\n\n{/eq} ions as sparingly soluble iodates, what is the {eq}Pb^{2+}\n\n{/eq} concentration when {eq}Cu^{2+}\n\n{/eq} begins to precipitate as sodium iodate is added to a solution that is initially 0.0010 M {eq}Pb(NO_3)_2(aq)\n\n{/eq} and 0.0010 M {eq}Cu(NO_3)_2(aq)\n\n{/eq}?\n\nThe unit of the answer should be \"M\".",
+        "answer": "5e-09",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-21182"
+    },
+    {
+        "prompt": "A 65.4-mL flask is filled with mercury at 0° C. When the temperature increases to 80°C, 1.58 g of mercury spills out of the flask. Assuming that the volume of the flask stays constant,find the change in the density of mercury at 80°C  if its density at 0°C is 13645 kg/m3.\n\nThe unit of the answer should be \"kg/m^3\".",
+        "answer": "24.15",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-09285"
+    },
+    {
+        "prompt": "The CCl4 formed in the first step is used as a reactant in the second step. If 7.00 mol of CH4 reacts, what is the total amount of HCl produced? Assume that Cl2 and HF are present in excess.\n\nThe unit of the answer should be \"mol\".",
+        "answer": "42.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-00325"
+    },
+    {
+        "prompt": "An object is dropped from a height H. During the final second of its fall, it traverses a distance of 57.8 m. What was H?\n\nThe unit of the answer should be \"m\".",
+        "answer": "197.192",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-31056"
+    },
+    {
+        "prompt": "Two identical conducting spheres each having a radius of {eq}0.500 \\; cm\n\n{/eq} are connected by a light {eq}2.30 \\; m\n\n{/eq} long conducting wire. A charge of {eq}68.0 \\; \\mu C\n\n{/eq} is placed on one of the conductors. Assume the surface distribution of charge on each sphere is uniform. Determine the tension in the wire.\n\nThe unit of the answer should be \"N\".",
+        "answer": "1.96",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-17984"
+    },
+    {
+        "prompt": "A 20 kg box is suspended from the ceiling by a robe that the weight of the rope is 1kg. Find the tension.\n\nThe unit of the answer should be \"N\".",
+        "answer": "205.8",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-23024"
+    },
+    {
+        "prompt": "What is the theoretical yield of alum with 1 g of aluminum?\n\nThe unit of the answer should be \"g\".",
+        "answer": "17.5",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-04849"
+    },
+    {
+        "prompt": "The decomposition of ethane, {eq}\\rm C_2H_6\n\n{/eq}, is a first-order reaction. It is found that it takes {eq}212\n\n{/eq} seconds to decompose {eq}\\rm 0.00839\\ M\\ C_2H_6\n\n{/eq} to {eq}0.00768\\ M\n\n{/eq}. What is the rate of decomposition (in {eq}\\rm mol / L \\cdot h\n\n{/eq}) when {eq}\\rm [C_2H_6] = 0.00422\\ M\n\n{/eq}?\n\nThe unit of the answer should be \"mol/L.h\".",
+        "answer": "0.006335",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-44471"
+    },
+    {
+        "prompt": "A charge {eq}q_1 = -5.4 \\ \\rm \\mu C\n\n{/eq} is at the origin and a charge {eq}q_2 = -2.2 \\ \\rm \\mu C\n\n{/eq} is on the x-axis at x = 1.00 m. Find the net  force acting on a charge {eq}q_3 = +1.6 \\ \\rm \\mu C\n\n{/eq} located at x = 0.75 m.\n\nThe unit of the answer should be \"N\".",
+        "answer": "0.368",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-41914"
+    },
+    {
+        "prompt": "A mole of reacts at a constant pressure of 43.0 atm via the reaction. Before the reaction, the volume of the gaseous mixture was 5.00 L. After the reaction, the volume was 2.00 L. Calculate the value of the total energy change in kilojoules.\n\nThe unit of the answer should be \"kJ\".",
+        "answer": "13.07",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-04214"
+    },
+    {
+        "prompt": "The velocity (in meters/sec) of a particle moving along a straight line given by {eq}v(t)=1t^{2}+1t-4\n\n{/eq}, where {eq}t\n\n{/eq} is measured in seconds. Answer the question given that the initial position {eq}s\n\n{/eq}(0)=7.\n\nWhat is the meter position of the body at time {eq}t=5?\n\n{/eq}\n\nThe unit of the answer should be \"m\".",
+        "answer": "41.16",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-00831"
+    },
+    {
+        "prompt": "At noon in your town (not Berkeley), the sun is directly overhead on a certain day. Its measured intensity at ground level is {eq}\\displaystyle \\rm I_{\\circ} = 1.00 \\ kW \\ m^{-2}\n\n{/eq}.\n\nFind {eq}\\displaystyle \\rm E\n\n{/eq}, the average magnitude of the electric field in the sunlight.\n\nThe unit of the answer should be \"N/C\".",
+        "answer": "868.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-04037"
+    },
+    {
+        "prompt": "Dry nitrogen gas is bubbled through liquid benzene ({eq}\\text{C}_{6} \\text{H}_{6}\n\n{/eq}) at 20.0 {eq}^{\\circ}\n\n{/eq}C. From 100.0 L of the gaseous mixture of nitrogen and benzene, 24.7 g of benzene is condensed by passing the mixture through a trap at a temperature where nitrogen is gaseous and the vapor pressure of benzene is negligible. What is the vapor pressure of benzene at 20.0 {eq}^{\\circ}\n\n{/eq}C?\n\nThe unit of the answer should be \"torr\".",
+        "answer": "57.893",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-17237"
+    },
+    {
+        "prompt": "The distance between two successive crests of a certain transverse wave is  {eq}1.42 \\ m\n\n{/eq}. Eight crests pass a given point along the direction of travel every  {eq}19.5 \\ s\n\n{/eq}.\n\n(a) Calculate the wave speed.\n\nThe unit of the answer should be \"m/s\".",
+        "answer": "0.58",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-33666"
+    },
+    {
+        "prompt": "What is the hydraulic radius (in cm) of a fully flowing conduit that is a right triangle with a height of 10 cm and a length of 20 cm?\n\nThe unit of the answer should be \"cm\".",
+        "answer": "1.91",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-00268"
+    },
+    {
+        "prompt": "What is the moment of inertia of a rod with a mass of #7  kg# and length of #6 m# that is spinning around its center?\n\nThe unit of the answer should be \"kgm^2\".",
+        "answer": "21.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-25149"
+    },
+    {
+        "prompt": "One (often inaccurate) rule of thumb in biology is that a 10 {eq}^\\circ C\n\n{/eq} change increases the rate by a factor of ten. If the lower temperature is 16 {eq}^\\circ C\n\n{/eq}, what activation energy does this correspond?\n\nThe unit of the answer should be \"J/mol\".",
+        "answer": "165.4",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-46584"
+    },
+    {
+        "prompt": "A beam of electrons moving in the x-direction at 8.3 Mm/s enters a region where a uniform 240 G magnetic field points in the y-direction. The boundary of the field region is perpendicular to the beam. How far into the field region does the beam penetrate?\n\nThe unit of the answer should be \"m\".",
+        "answer": "0.001966",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-30046"
+    },
+    {
+        "prompt": "A plane is heading due south with an airspeed of {eq}\\rm\n\n231\\ mph\n\n{/eq}. A wind from a direction of {eq}\\rm\n\n53.0 ^\\circ\n\n{/eq} is blowing at {eq}\\rm\n\n12.0\\ mph\n\n{/eq}. Find the bearing of the plane. (Note that bearings are measured from north, clockwise.) Round results to an appropriate number of significant digits.\n\nThe unit of the answer should be \"degrees\".",
+        "answer": "182.303",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-35310"
+    },
+    {
+        "prompt": "An electron has a mass of 9.11 * 10{eq}^{-31}\n\n{/eq} kg. What is the charge of 1.00 grams of pure electrons?\n\nThe unit of the answer should be \"C\".",
+        "answer": "180000000.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-03136"
+    },
+    {
+        "prompt": "Suppose a copper wire (density = 8.96 g/cm{eq}^3\n\n{/eq}) has a diameter of 0.25 mm. If a sample of this copper wire has a mass of 22 g, how long is the wire?\n\nThe unit of the answer should be \"cm\".",
+        "answer": "5000.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-42804"
+    },
+    {
+        "prompt": "A physics major is cooking breakfast when he notices that the frictional force between the steel spatula and the Oiled Steel frying pan is only 0.350 N. Knowing the coefficient of kinetic friction between the two materials (0.03), he quickly calculates the normal force. What is it?\n\nThe unit of the answer should be \"N\".",
+        "answer": "12.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-22108"
+    },
+    {
+        "prompt": "Calculate the period of a planet in the sun system if its radius of orbit around the sun is {eq}7.78 \\times 10^{11} \\text{ m}\n\n{/eq}. Use {eq}k = 3.355 \\times 10^{18} \\text{ m}^3/\\text{s}^2\n\n{/eq}.\n\nThe unit of the answer should be \"yrs\".",
+        "answer": "11.89",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-05190"
+    },
+    {
+        "prompt": "An electric generator is designed to produce a maximum emf of {eq}220\\ V\n\n{/eq} while rotating with an angular speed of {eq}3600\\ rpm\n\n{/eq}. Each coil of the generator has an area of {eq}0.027\\ m^2\n\n{/eq}.\n\nIf the magnetic field used in the generator has a magnitude of {eq}0.050\\ T\n\n{/eq}, how many turns of wire are needed?\n\nThe answer should be dimensionless.",
+        "answer": "432.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-48692"
+    },
+    {
+        "prompt": "The decomposition of {eq}\\displaystyle \\rm NOCl\n\n{/eq} to form {eq}\\displaystyle \\rm NO\n\n{/eq} and {eq}\\displaystyle \\rm Cl_2, \\ 2NOCl (g) \\leftrightharpoons 2NO (g) + Cl_2 (g)\n\n{/eq}, has a {eq}\\displaystyle \\rm K_p\n\n{/eq} value of {eq}\\displaystyle \\rm 1.6 \\times 10^{-5}\n\n{/eq} at some temperature. If the initial partial pressure of {eq}\\displaystyle \\rm NO\n\n{/eq} and {eq}\\displaystyle \\rm Cl_2\n\n{/eq} in a closed container are {eq}\\displaystyle \\rm 0.80 \\ atm\n\n{/eq} and {eq}\\displaystyle \\rm 0.40 \\ atm\n\n{/eq}, respectively, what is the approximate equilibrium partial pressure of {eq}\\displaystyle \\rm NOCl\n\n{/eq}?\n\nThe unit of the answer should be \"atm\".",
+        "answer": "0.76",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-09706"
+    },
+    {
+        "prompt": "How many liters of {eq}O_2\n\n{/eq} at 38 degrees Celsius and 710 mmHg are required to react with 23.8 grams of {eq}C_6H_{12}O_6\n\n{/eq} in the following reaction?\n\n{eq}C_6H_{12}O_6 + 6O_2 \\to 6CO_2 + 6H_2O\n\n{/eq}\n\nThe unit of the answer should be \"L\".",
+        "answer": "21.7",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-40342"
+    },
+    {
+        "prompt": "A luge and its rider, with a total mass of 88 kg, emerge from a downhill track onto a horizontal straight track with an initial speed of 30 m/s. Assume that they stop with a constant deceleration of {eq}2.2~ \\frac {m}{s^2}\n\n{/eq}.\n\nWhat is d for a deceleration of {eq}7.0~ \\frac {m}{s^2}\n\n{/eq}? The answer must be in three significant figures.\n\nThe unit of the answer should be \"m\".",
+        "answer": "64.3",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-20577"
+    },
+    {
+        "prompt": "Determine the distance traveled by a particle whose initial velocity is 48 km/h. The particle accelerates uniformly at Tate of 1.8 m/s and attained a velocity of 72 km/h.\n\nThe unit of the answer should be \"m\".",
+        "answer": "61.98",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-45419"
+    },
+    {
+        "prompt": "I am trying to do this textbook question at the end of a chapter on vectors: A bomb is moving vertically downwards with a speed of 400 m/s. At a height of 20 m above the ground it explodes and all the particles are thereby given an additional speed 200 metres per second in all directions. Find the diameter of the smallest circle within which the particles will strike the ground (ignore the effect of gravity) The book says the answer is 23.09 metres. I cannot see this. Surely if the bomb explodes at 20 metres some particles will travel horizontally at 200 m/sec and vertically at 600 m/sec, reaching the ground after 1/30 of a second. in that time will they will cover a horizontal distance of 200/30 = 6.66 m so that all particles will strike the ground within a circle of diameter 13.32 m. I cannot see where vectors come in.\n\nThe unit of the answer should be \"m\".",
+        "answer": "23.09",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-29043"
+    },
+    {
+        "prompt": "Explain how to convert 245 calories to kilojoules.\n\nThe unit of the answer should be \"kJ\".",
+        "answer": "1.03",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-42536"
+    },
+    {
+        "prompt": "A wooden boxcar is moving along a straight railroad track at speed v1. A sniper fires a bullet (initial speed v2) at it from a high-powered rifle. The bullet passes though both lengthwise walls of the car, its entrance and exit holes being exactly opposite each as viewed from within the car. From what direction, relative to the track, is the bullet fired? Assume that the bullet is not deflected upon entering the car, but that its speed decreases by 20%. Take v1=85km/hr and v2 = 650 m/s.\n\nThe unit of the answer should be \"degrees\".",
+        "answer": "87.3",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-42457"
+    },
+    {
+        "prompt": "How much pressure in kPa does 5 moles of nitrogen gas at 10 degrees Celsius exert on a container that holds 41 L of gas?\n\nThe unit of the answer should be \"kPa\".",
+        "answer": "287.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-31742"
+    },
+    {
+        "prompt": "A skier starts from rest at the top of a hill. The skier coasts down the hill and up a second hill, as the drawing illustrates. The crest of the second hill is circular, with a radius of 38.3 m. Neglect friction and air resistance. What must be the height h of the first hill so that the skier just loses contact with the snow at the crest of the second hill?\n\nThe unit of the answer should be \"m\".",
+        "answer": "19.14",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-47100"
+    },
+    {
+        "prompt": "A 20.0 kg block is initially at rest on a horizontal surface. A horizontal force of 70.0 N is required to set the block in motion, after which a horizontal force of 62.0 N is required to keep the block moving with constant speed. Find the coefficient of static friction between the block and the surface.\n\nThe answer should be dimensionless.",
+        "answer": "0.357",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-28329"
+    },
+    {
+        "prompt": "Find the work done by the force\n\n{eq}\\displaystyle{\n\n\\vec F = 6xy \\hat i + 12y^2 \\hat j\n\n}\n\n{/eq}\n\nacting along the piecewise-smooth curve consisting of the line segments from {eq}(-2, 2)\n\n{/eq} to {eq}(0.0)\n\n{/eq} and from {eq}(0.0)\n\n{/eq} to {eq}(2.6)\n\n{/eq}.\n\nThe answer should be dimensionless.",
+        "answer": "864.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-50425"
+    },
+    {
+        "prompt": "Three moles of nitrogen gas, N2, at 26.8 C are contained in a 35.8 L cylinder. Find the pressure the gas exerts on the cylinder walls. Answer in units of Pa\n\nThe unit of the answer should be \"Pa\".",
+        "answer": "209000.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-44390"
+    },
+    {
+        "prompt": "A ball of mass of {eq}\\displaystyle \\rm 3 \\ kg\n\n{/eq} is in a tube, with no air. It is dropped from a height of {eq}\\displaystyle \\rm h\n\n{/eq} of {eq}\\displaystyle \\rm 2 \\ m\n\n{/eq} above a spring with a spring constant of {eq}\\displaystyle \\rm k= 30 \\ \\frac{N}{m}\n\n{/eq}.\n\nHow far does it correspond to the spring?\n\nThe unit of the answer should be \"m\".",
+        "answer": "3.2",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-26717"
+    },
+    {
+        "prompt": "On a wet road, the coefficient of static friction between a car's tires and the flat road is 0.40.\n\nWhat is the maximum speed a car can safely navigate a turn with a 72.0 m radius of curvature?\n\nThe unit of the answer should be \"m/s\".",
+        "answer": "16.8",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-46484"
+    },
+    {
+        "prompt": "A task in the 2013 American Ninja Warriors requires contenders to go through a gap of two vertical walls, with hands on one and feet on the other. How hard must an 82.0 kg contender push in order to succeed in the task if the coefficient of static friction between the walls and his hands or feet is 0.800?\n\nThe unit of the answer should be \"N\".",
+        "answer": "1025.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-47759"
+    },
+    {
+        "prompt": "A  {eq}6\\, kg\n\n{/eq} rock is suspended by a massless string from one end of a  {eq}6\\,m\n\n{/eq} measuring stick. What is the mass of the measuring stick if it is balanced by a support force at the  {eq}1\\,m\n\n{/eq} mark? answer in units of  {eq}kg\n\n{/eq}.\n\nThe unit of the answer should be \"kg\".",
+        "answer": "3.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-13968"
+    },
+    {
+        "prompt": "A skateboarder of mass 38.0 kg is riding her 3.90-kg skateboard at a speed of 5.40 m/s. She jumps backward off her skateboard, sending the skateboard forward at a speed of 8.5 m/s. At what speed is the skateboarder moving when her feet hit the ground?\n\nThe unit of the answer should be \"m/s\".",
+        "answer": "5.08",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-32905"
+    },
+    {
+        "prompt": "What mass of electrons would be required to just neutralize the charge of 1.0 grams of protons?\n\nThe unit of the answer should be \"kg\".",
+        "answer": "5.45e-07",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-36454"
+    },
+    {
+        "prompt": "A baseball coach shouts loudly at an umpire standing 3.6 meters away. If the sound power produced by the coach is 2.2 10?3 W, what is the intensity of the sound when it reaches the umpire? Answer in units of W/m2.\n\nThe unit of the answer should be \"W/m^2\".",
+        "answer": "1.3509e-05",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-44147"
+    },
+    {
+        "prompt": "In a double slit experiment, the first minimum for 425 nm violet light is at an angle of {eq}43 ^\\circ\n\n{/eq}.\n\nFind the distance between the two slits in micrometers.\n\nThe unit of the answer should be \"nm\".",
+        "answer": "311.58",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-07567"
+    },
+    {
+        "prompt": "A motorcycle dare devil, Rex Russel made a record setting jump across Scary Canyon. The canyon's elevation was 35.0 m higher on the first side of the canyon than on the side Rex landed on. It took Rex 5.00 seconds to clear the canyon and land safely, a horizontal distance of 110.0 m on the other side. Find the initial velocity and state it as a vector.\n\nThe unit of the answer should be \"m/s\".",
+        "answer": "28.1",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-44953"
+    },
+    {
+        "prompt": "How many grams of {eq}NH_3\n\n{/eq} are produced from 49.7 L of {eq}N_2\n\n{/eq}?\n\n{eq}N_2+H_2 \\rightarrow NH_3\n\n{/eq}\n\nThe unit of the answer should be \"g\".",
+        "answer": "75.48",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-19794"
+    },
+    {
+        "prompt": "{eq}{{\\text{H}}_{2}}\\text{S}{{\\text{O}}_{4}}(\\text{aq})+2\\text{KOH}(\\text{aq})==\\gt 2{{\\text{H}}_{2}}\\text{O}(\\text{l})+{{\\text{K}}_{2}}\\text{S}{{\\text{O}}_{4}}(aq)\n\n{/eq} 0.650 L of 0.440 M H2SO4 is mixed with0.600 L of 0.290 M KOH. What concentration of Sulfuric Acid remainsafter neutralization?\n\nThe unit of the answer should be \"M\".",
+        "answer": "0.0896",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-07087"
+    },
+    {
+        "prompt": "A 10 kg uniform ladder, 5.0 m long, is placed against a smooth wall at a height of 3.1 m. The base of the ladder rests on a rough horizontal surface whose coefficient of static friction is 0.40. An 80 kg block is suspended from the top rung of the ladder, close to the wall. What is the magnitude of the force exerted on the wall by the ladder?\n\nThe unit of the answer should be \"N\".",
+        "answer": "1100.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-07229"
+    },
+    {
+        "prompt": "An electric field E = 109,000 N/C directed to the right causes a ball hanging from a string to hang at a 20{eq}^\\circ\n\n{/eq} angle with the vertical. The ball's mass is 4.3 g. What is the charge on the ball?\n\nThe unit of the answer should be \"nC\".",
+        "answer": "141.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-28571"
+    },
+    {
+        "prompt": "A cube of wood whose edge is 12 mm is floating in a liquid in a glass with one of its faces parallel to the liquid surface. The density of wood is 860 kg/m{eq}\\displaystyle ^3,\n\n{/eq} that of liquid is 1296 kg/m{eq}\\displaystyle ^3.\n\n{/eq}\n\nHow far {eq}\\displaystyle h_l\n\n{/eq} below the liquid surface is the bottom face of the cube?\n\nThe unit of the answer should be \"mm\".",
+        "answer": "7.96",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-44148"
+    },
+    {
+        "prompt": "An animal-rescue plane flying due east at 33.0 m per s drops a bale of hay from an altitude of 58.0 m. If the bale of hay weighs 173 N, what is the momentum of the bale the moment it strikes the ground?\n\nThe unit of the answer should be \"Ns\".",
+        "answer": "831.9",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-41347"
+    },
+    {
+        "prompt": "A diver of mass {eq}43.2 \\ kg\n\n{/eq} jumps off a high dive {eq}10.0 \\ m\n\n{/eq} tall.\n\nIf he comes to a stop {eq}2.0 \\ m\n\n{/eq} below the surface of the water, what was his acceleration after he entered the water?\n\nThe unit of the answer should be \"m/s^2\".",
+        "answer": "-49.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-15606"
+    },
+    {
+        "prompt": "When point charges {eq}q_1 = +9.2 \\mu C\n\n{/eq} and {eq}q_2 = +6.1 \\mu C\n\n{/eq} are brought near each other, each experiences a repulsive force of magnitude 0.60 N. Determine the distance between the charges.\n\nThe unit of the answer should be \"m\".",
+        "answer": "0.917",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-18648"
+    },
+    {
+        "prompt": "A charge with a value of {eq}3\\times10^{-5}C\n\n{/eq} is located 3cm from a charge with a value of {eq}6\\times10^{-5}C\n\n{/eq}. Determine the distance from the larger charge to the point where the total electric field is zero\n\nThe unit of the answer should be \"cm\".",
+        "answer": "1.76",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-24830"
+    },
+    {
+        "prompt": "Two satellites, A and B, are in different circular orbits about the earth. The orbital speed of satellite A is thirty-five times that of satellite B. Find the ratio (TA/TB) of the periods of the satellites.\n\nThe unit of the answer should be \"e-5\".",
+        "answer": "2.33",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-40512"
+    },
+    {
+        "prompt": "You have 100 mg of dCTP (MW 500) and you want to make a 50 mM stock solution. How much water will you add? Explain.\n\nThe unit of the answer should be \"mL\".",
+        "answer": "4.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-30463"
+    },
+    {
+        "prompt": "A spherically shaped balloon has a radius of 8.66m and is filled with helium. How large a mass of cargo can it lift, assuming that the skin and structure of the balloon have a mass of 832kg? Neglect the buoyant force on the cargo volume itself. The density of air is 1.29 kg/m{eq}^3\n\n{/eq} and the density of helium is 0.179 kg/m{eq}^3\n\n{/eq}.\n\nThe unit of the answer should be \"kg\".",
+        "answer": "2190.4",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-10214"
+    },
+    {
+        "prompt": "An RLC circuit is used in a radio to tune into an FM station broadcasting at f = 99.7 MHz. The resistance in the circuit is R = 8.00 {eq}\\Omega\n\n{/eq}, and the inductance is L = 1.20 {eq}\\mu\n\n{/eq}H.\n\nWhat capacitance should be used?\n\nThe unit of the answer should be \"F\".",
+        "answer": "2.124e-12",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-14027"
+    },
+    {
+        "prompt": "The voltage, V, in an electrical outlet is given as a function of time, t, by the function {eq}V = V_0 \\cos (120 \\pi t)\n\n{/eq}, where V is in volts and t is in seconds, and {eq}V_0\n\n{/eq} is a positive constant representing the maximum voltage.\n\nEngineers do not use the average voltage. They use the root mean square voltage defined by {eq}\\overline{V} = \\sqrt {average ~of~ V^2}\n\n{/eq}.\n\nThe standard voltage in an American house is 110 volts, meaning that  {eq}\\overline {V} = 110\n\n{/eq}. What is {eq}V_0\n\n{/eq}?\n\nThe unit of the answer should be \"volts\".",
+        "answer": "155.54",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-23181"
+    },
+    {
+        "prompt": "{eq}\\rm\n\nCO_2\n\n{/eq} can be reduced according to the following reaction:\n\n{eq}\\rm\n\nH_2 (g) + CO_2 (g) \\rightleftharpoons H_2O (g) + CO (g)\n\n{/eq}\n\nHow many moles of {eq}\\rm\n\nH_2\n\n{/eq} must be added to 0.656 moles of {eq}\\rm\n\nCO_2\n\n{/eq} in a 1.00 L flask in order to reduce {eq}\\rm\n\n53.0\\%\n\n{/eq} of the {eq}\\rm\n\nCO_2\n\n{/eq} to {eq}\\rm\n\nCO\n\n{/eq} at a temperature where {eq}\\rm\n\nK_c = 4.00\n\n{/eq}?\n\nThe unit of the answer should be \"moles\".",
+        "answer": "0.446",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-17381"
+    },
+    {
+        "prompt": "To prepare homemade ice cream, a crank must be turned with a torque of 4.25 {eq}N \\cdot m\n\n{/eq}. How much work is required for each complete turn of the crank?\n\nThe unit of the answer should be \"J\".",
+        "answer": "28.7",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-28171"
+    },
+    {
+        "prompt": "What is the entropy change in the surroundings when one mole of ice melts at {eq}\\rm\n\n0.00 ^\\circ C\n\n{/eq} in a large room maintained at {eq}\\rm\n\n40.0 ^\\circ C\n\n{/eq}? The heat of fusion of ice is {eq}\\rm\n\n6.41\\ kJ/mol\n\n{/eq}.\n\nThe unit of the answer should be \"J/K\".",
+        "answer": "-20.5",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-16973"
+    },
+    {
+        "prompt": "Calculate the energy of a single photon of violet light with a wavelength of 434 nm.\n\nThe unit of the answer should be \"J\".",
+        "answer": "4.6e-19",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-22308"
+    },
+    {
+        "prompt": "An electrical conductor designed to carry large currents has a circular cross-section 2.60 mm in diameter and is 14.1 m long. The resistance between its ends is 0.106 ohms. If the electric field magnitude in the conductor is 1.26 V/m, what is the total current?\n\nThe unit of the answer should be \"A\".",
+        "answer": "171.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-37132"
+    },
+    {
+        "prompt": "A man jumps from the window of a burning hotel and lands in a safety net that stops him fall in 1.2 m. Determine the average force that the net exerts on the man if he enters the net at a speed of 29 m/s. Assume that the man's mass is 65 kg.\n\nThe unit of the answer should be \"N\".",
+        "answer": "22800.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-50311"
+    },
+    {
+        "prompt": "Near the surface of Earth a small object of mass m = 0.5 kg, on the end of a light cord, is held at an angle of 45 degrees from the horizontal and a distance R from a fixed support. The object is then released from rest. What is the tension force of the cord when the object is at the lowest point of its swing?\n\nThe unit of the answer should be \"N\".",
+        "answer": "7.77",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-49527"
+    },
+    {
+        "prompt": "Suppose a 5.00 mL solution of 0.0812 M {eq}Ca(OH)_2\n\n{/eq} is titrated with 0.0532 M {eq}HCl\n\n{/eq}. Calculate the pH at the equivalence point.\n\nThe answer should be dimensionless.",
+        "answer": "7.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-38462"
+    },
+    {
+        "prompt": "A 7.0 {eq}\\mu\n\n{/eq}F capacitor is charged by a 9.0 V battery through a resistance R. The capacitor reaches a potential difference of 4.00 V at a time 3.00 s after charging begins. Find R.\n\nThe unit of the answer should be \"Ω\".",
+        "answer": "730000.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-29661"
+    },
+    {
+        "prompt": "A ray of light in air has an angle of incidence to the normal of 45{eq}^o\n\n{/eq} into a piece of glass (1.5). What is the angle of refraction?\n\nThe unit of the answer should be \"degrees\".",
+        "answer": "28.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-34727"
+    },
+    {
+        "prompt": "What is the wavelength (in  {eq}nm\n\n{/eq}) for a photon of light with an energy of  {eq}3.20 \\times 10^{-19} \\ J / photon\n\n{/eq} ?\n\nThe unit of the answer should be \"nm\".",
+        "answer": "621.2",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-11138"
+    },
+    {
+        "prompt": "A ball with a mass of #160 g# is projected vertically by a spring loaded contraption.  The spring in the contraption has a spring constant of #15  (kg)/s^2# and was compressed by #1/4 m# when the ball was released.  How high will the ball go?\n\nThe unit of the answer should be \"m\".",
+        "answer": "0.3",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-24176"
+    },
+    {
+        "prompt": "There is a small amount of water at the bottom of a sealed container of volume 5.2 liters which is otherwise full of an ideal gas. A thin tube open to the atmosphere extends down into the water. The system is initially at atmospheric pressure and temperature 113 Celsius.\n\nIf we increase the temperature of the gas until the water rises in the tube to a height of 120 cm, then what is the temperature at that instant?\n\nThe unit of the answer should be \"K\".",
+        "answer": "430.8",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-45476"
+    },
+    {
+        "prompt": "Suppose you are standing on skis, headed straight down a slight incline covered with dry snow at {eq}\\rm\n\n0 ^\\circ C\n\n{/eq}. What is the minimum angle of the incline that will cause you to slide?\n\nThe unit of the answer should be \"°\".",
+        "answer": "2.86",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-16101"
+    },
+    {
+        "prompt": "The kinetic energy of an electron accelerated in an x-ray tube is 100 keV.\n\nAssuming it is nonrelativistic, what is its wavelength?\n\nThe unit of the answer should be \"pm\".",
+        "answer": "3.9",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-28367"
+    },
+    {
+        "prompt": "What is the average force for stopping a person with 100 kg weight and 0.1 m{eq}^2\n\n{/eq} area, with allowed stopping distance of 25 cm where the velocity of its vehicle is 2 km/min? The strength of body tissue is 5 {eq}\\times\n\n{/eq} 10{eq}^6\n\n{/eq} dyne/cm{eq}^2\n\n{/eq}.\n\nThe unit of the answer should be \"N\".",
+        "answer": "222000.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-29555"
+    },
+    {
+        "prompt": "A 0.20-kg cannonball with a {eq}+1.0 \\times 10^{-4} C\n\n{/eq} charge starts at rest 0.40 m from a fixed {eq}+2.0 \\times 10^{-4}\n\n{/eq} charge. When the cannonball is released, it flies vertically upward. How fast is it moving when 10m above the fixed charge?\n\nThe unit of the answer should be \"m/s\".",
+        "answer": "64.27",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-42421"
+    },
+    {
+        "prompt": "3. Calculate the cost of running the light bulb you used in lab at 10 volts for one month. Go online or use an electric bill to determine the cost of a kilowatt-hour of electricity. The current for the light bulb at 10 volts was 0.1085 amps.\n\nThe unit of the answer should be \"cents\".",
+        "answer": "11.83",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-44580"
+    },
+    {
+        "prompt": "A solenoid is made by tightly wrapping a wire 0.30 mm in diameter around a 4.0 mm diameter cylinder. a) If the inductance of this solenoid is to be {eq}10\\ \\rm{\\mu H}\n\n{/eq} what must the length of the winding be?\n\nThe unit of the answer should be \"cm\".",
+        "answer": "5.7",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-46824"
+    },
+    {
+        "prompt": "A fountain designed to spray a column of water 10.0 m into the air has a 1.31-cm-diameter nozzle at ground level. The water pump is 2.63 m below the ground. The pipe to the nozzle has a diameter of 2.62 cm. Find the pump pressure necessary if the fountain is to operate as designed. (Assume laminar non-viscous steady-state flow).\n\nThe unit of the answer should be \"kPa\".",
+        "answer": "225.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-27324"
+    },
+    {
+        "prompt": "You are standing at the top of a cliff that has a stairstep configuration. There is a vertical drop of 7 {eq}m\n\n{/eq} at your feet, then a horizontal shelf of 8 {eq}m\n\n{/eq}, then another drop of 3 {eq}m\n\n{/eq} to the bottom of the canyon, which has a horizontal floor. You kick a rock, giving it an initial horizontal velocity that barely clears the 8 {eq}m\n\n{/eq} shelf below.\n\nWhat initial horizontal velocity {eq}v\n\n{/eq} will be required to barely clear the edge of the shelf below you?\n\nThe acceleration of gravity is 9.8 {eq}m/s^2\n\n{/eq}. Consider air friction to be negligible. Answer in units of {eq}m/s\n\n{/eq}.\n\nThe unit of the answer should be \"m/s\".",
+        "answer": "6.7",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-15642"
+    },
+    {
+        "prompt": "Two capacitors are connected in parallel across the terminals of a battery. One has a capacitance of {eq}\\rm 2.13 \\ \\mu F\n\n{/eq} and the other has a capacitance of {eq}\\rm 4.04 \\ \\mu F\n\n{/eq}. These two capacitors together store {eq}\\rm 5.09 \\times 10^{-5} \\ C\n\n{/eq} of charge. What is the voltage of the battery?\n\nThe unit of the answer should be \"V\".",
+        "answer": "36.5",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-42600"
+    },
+    {
+        "prompt": "A driver is traveling at 30.0 m/s when he sees a moose crossing the road 80.0 m ahead. The moose becomes distracted and stops in the middle of the road. If the driver of the car slams on the brakes, what is the minimum constant acceleration he must undergo to stop short of the moose and avert an accident?\n\nThe unit of the answer should be \"m/s^2\".",
+        "answer": "-5.625",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-45325"
+    },
+    {
+        "prompt": "An object with a mass of #7 kg# is pushed along a linear path with a kinetic friction coefficient of #u_k(x)= 4+secx   #.  How much work would it take to move the object over #x in [(-5pi)/12, (pi)/6], where x is in meters?\n\nThe unit of the answer should be \"J\".",
+        "answer": "679.83",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-37763"
+    },
+    {
+        "prompt": "Calculate the electric field half way between two charges, where one charge is + 21.0 nC and the second charge is 4.5 nC at a distance of 239 mm. (Note that the second charge may be given as positive or negative, read the value carefully.) Express the result in N/C and to three significant figures. If you must use scientific notation, please enter as follows: ex.0.00012 = 1.2E-4. Only answer in numerical values, no units. For negative numbers, leave no space between the negative sign and the number.\n\nThe unit of the answer should be \"E4\".",
+        "answer": "1.03",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-39846"
+    },
+    {
+        "prompt": "Explain how you would calculate the molar mass of h2o2?\n​\n\nThe unit of the answer should be \"g\".",
+        "answer": "34.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-24174"
+    },
+    {
+        "prompt": "The length of a steel tape is exactly 150 meters at 5 degrees Celsius. What is the final length of the tape at 40 degrees Celsius? The coefficient of linear expansion for steel is {eq}1.2 \\times 10^{-5}\n\n{/eq} per degree Celsius.\n\nThe unit of the answer should be \"m\".",
+        "answer": "150.105",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-22622"
+    },
+    {
+        "prompt": "Two manned satellites approaching one another at a relative speed of 0.300 m/s intend to dock. The first has a mass of {eq}4.00 \\times 10^3\n\n{/eq} kg, and the second a mass of {eq}7.50 \\times 10^3\n\n{/eq} kg. Assume that the positive direction is directed from the second satellite towards the first satellite. Calculate the final velocity after docking, in the frame of reference in which the first satellite was originally at rest.\n\nThe unit of the answer should be \"m/s\".",
+        "answer": "0.46",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-47712"
+    },
+    {
+        "prompt": "A boy is blowing a whistle of frequency 536Hz and walking toward a wall with a speed of 1.64m/s. What frequency of the reflected sound will the boy hear if the speed of sound is 343m/s?\n\nThe unit of the answer should be \"Hz\".",
+        "answer": "541.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-11101"
+    },
+    {
+        "prompt": "A car traveling at 42 km/h hits a bridge abutment. A passenger in the car moves forward a distance of 56 cm (with respect to the road) while being brought to rest by an inflated airbag. What magnitude of force (assumed constant) acts on the passenger's upper torso, which has a mass of 46 kg?\n\nThe unit of the answer should be \"N\".",
+        "answer": "5590.27",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-43899"
+    },
+    {
+        "prompt": "If He gas has an average kinetic energy of 4110 J/mol under certain conditions, what is the root mean square speed of O_2 gas molecules under the same conditions?\n\nThe unit of the answer should be \"m/s\".",
+        "answer": "506.8",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-40273"
+    },
+    {
+        "prompt": "Consider two point charges located on the x-axis: one charge, {eq}{{q}_{1}}=-10.0\\text{ nC} {/eq}, is located at {eq}{{x}_{1}}=-1.730\\text{ m} {/eq}; the second charge, {eq}{{q}_{2}}=33.5\\text{ nC} {/eq}, is at the origin {eq}\\left( x=0.000 \\right) {/eq}. What is the net force exerted by these two charges on a third charge {eq}{{q}_{3}}=48.5\\text{ nC} {/eq} placed between {eq}{{q}_{1}}\\text{ and }{{q}_{2}}\\text{ at }{{x}_{3}}=-1.130\\text{ m} {/eq}?\n\nThe unit of the answer should be \"N\".",
+        "answer": "-2.36e-05",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-35608"
+    },
+    {
+        "prompt": "What is the concentration in molarity of a 45 ppb solution of Na3AS?\n\nThe unit of the answer should be \"M\".",
+        "answer": "3.1e-07",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-40056"
+    },
+    {
+        "prompt": "Find the minimum work required to carry a truckload of furniture weighing 2.49 {eq}\\times\n\n{/eq} 10{eq}^4\n\n{/eq} N to a third-story apartment, 21.0 m above the truck.\n\nThe unit of the answer should be \"J\".",
+        "answer": "522000.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-08965"
+    },
+    {
+        "prompt": "Two conducting spheres carry charges of {eq}-20\\ \\mu C\n\n{/eq} and {eq}+ 50\\ \\mu C\n\n{/eq}, are brought into contact and then separated to a distance of {eq}10\\ cm\n\n{/eq}. Determine the magnitude of the force that each sphere now see.\n\nThe unit of the answer should be \"N\".",
+        "answer": "202.5",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-05002"
+    },
+    {
+        "prompt": "A long, ideal solenoid has a diameter d = 12 cm and number of turns n = 1200 turns/m carrying current I = 20 A. If the current is lowered at 4.33 A/s to zero, what is the magnitude of the induced electric field in V/m at a position 2.2 cm from the solenoid's axis (so at a point inside the solenoid)?\n\nThe unit of the answer should be \"V/m\".",
+        "answer": "7.18e-05",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-45292"
+    },
+    {
+        "prompt": "After 42.0 minutes, 19.0% of a compound has decomposed. What is the half-life of this reaction assuming first-order kinetics?\n\nThe unit of the answer should be \"minutes\".",
+        "answer": "138.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-10249"
+    },
+    {
+        "prompt": "A drag racer, starting from rest, speeds up for {eq}384\\ \\mathrm{m}\n\n{/eq} with an acceleration of {eq}+19.3\\ \\mathrm{m/s^2}\n\n{/eq}. A parachute then opens, slowing the car down with an acceleration of {eq}-6.33\\ \\mathrm{m/s^2}\n\n{/eq}. How fast is the racer moving {eq}302\\ \\mathrm{m}\n\n{/eq} after the parachute opens?\n\nThe unit of the answer should be \"m/s\".",
+        "answer": "104.86",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-43437"
+    },
+    {
+        "prompt": "A constant force {eq}\\displaystyle \\rm F=-8i-7j-5k\n\n{/eq} moves an object along a straight line from point {eq}\\displaystyle (1,-5,9)\n\n{/eq} to point {eq}\\displaystyle (-5,-10,10)\n\n{/eq}. Find the work done if the distance is measured in meters and the magnitude of the force is measured in newtons.\n\nThe unit of the answer should be \"N\".",
+        "answer": "78.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-17911"
+    },
+    {
+        "prompt": "How many mols of {eq}CaCl_2\\cdot 2H_2O\n\n{/eq} are in 2.90 grams of {eq}CaCl_2\\cdot 2H_2O\n\n{/eq}?\n\nThe unit of the answer should be \"moles\".",
+        "answer": "0.019",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-44587"
+    },
+    {
+        "prompt": "In a diesel engine, the piston compresses air at 305?K to a volume that is 0.0624 of the original volume and a pressure that is 48.5 times the original pressure. What is the temperature of the air after the compression?\n\nThe unit of the answer should be \"K\".",
+        "answer": "923.05",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-30839"
+    },
+    {
+        "prompt": "A sample of helium gas occupies a volume of 172.0 mL at a pressure of 719.0 mm Hg and a temperature of 329.0 K. What will the volume be at a pressure of 494.0 mm Hg and a temperature of 782.0 K?\n\nThe unit of the answer should be \"mL\".",
+        "answer": "595.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-33022"
+    },
+    {
+        "prompt": "What is the mass of aluminum that would have the same number of atoms as 6.35 g of cadmium?\n\nThe unit of the answer should be \"g\".",
+        "answer": "1.5",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-01184"
+    },
+    {
+        "prompt": "A ball is dropped from rest from a height of {eq}20.0\\ \\mathrm{m}\n\n{/eq}. One second later, a second ball is thrown vertically downwards. If the two balls arrive on the ground at the same time, what must have been the initial velocity of the second ball?\n\nThe unit of the answer should be \"m/s\".",
+        "answer": "14.85",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-27720"
+    },
+    {
+        "prompt": "Water has a specific heat of 4.18 J/g{eq}\\cdot ^{\\circ}\n\n{/eq}C. What is the quantity of energy (in kJ) required to increase the temperature of a 50.0-g sample of water from 25 degrees Celsius to 99 degrees Celsius?\n\nThe unit of the answer should be \"kJ\".",
+        "answer": "15.5",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-19018"
+    },
+    {
+        "prompt": "Two stationary positive point charges, charge 1 of magnitude 3.80 nC and charge 2 of magnitude 1.65 nC , are separated by a distance of 40.0 cm . An electron is released from rest at the point midway between the two charges, and it moves along the line connecting the two charges. What is the speed vfinal of the electron when it is 10.0 cm from charge 1?\n\nThe unit of the answer should be \"m/s\".",
+        "answer": "7170000.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-45212"
+    },
+    {
+        "prompt": "A beam of monochromatic light is diffracted by a slit of width 0.630 mm. The diffraction pattern forms on a wall 1.40 m beyond the slit. The width of the central maximum is 1.95 mm. Calculate the wavelength of the light.\n\nThe unit of the answer should be \"nm\".",
+        "answer": "438.8",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-08399"
+    },
+    {
+        "prompt": "An object is placed 84 cm in front of a concave mirror. If the magnification is -0.95, what is the focal length of the mirror? cm\n\nThe unit of the answer should be \"cm\".",
+        "answer": "41.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-44763"
+    },
+    {
+        "prompt": "{eq}\\displaystyle\n\n0.25\n\n{/eq} moles of a gas sample occupies {eq}\\displaystyle\n\n\\text{ 155 mL at } 47.5^o C.\n\n{/eq} Determine the pressure of the temperature gas sample.\n\nThe unit of the answer should be \"atm\".",
+        "answer": "42.4",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-26798"
+    },
+    {
+        "prompt": "A spherical shell of charge in free space has a volume charge density of {eq}0\n\n{/eq} for {eq}0 \\leq r < 2 \\, m\n\n{/eq} and {eq}2/r^2 \\, nC/m^3\n\n{/eq} for {eq}2 \\leq r \\leq 4 \\, m\n\n{/eq}, and {eq}0\n\n{/eq} for {eq}r > 4\n\n{/eq}. Find the total charge enclosed in the shell.\n\nThe unit of the answer should be \"nC\".",
+        "answer": "50.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-13181"
+    },
+    {
+        "prompt": "A car starts off 16 miles directly east from the city of Springfield. It travels due north at a speed of 40 miles per hour. After travelling 27 miles, how fast (in radians per hour) is the angle opposite the northward path changing?\n\nThe unit of the answer should be \"rad/h\".",
+        "answer": "0.65",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-27433"
+    },
+    {
+        "prompt": "Two charges, Q1 = 4.9 nC and Q2 = -5.5 x 10{eq}^{-9}\n\n{/eq} C are situated at the diagonal corners A and C of a rectangle of sides AB = DC = 22.6 cm and AD = BC = 4.3 cm.\n\nWhat is the magnitude of the electric field at point D?\n\nThe unit of the answer should be \"N/C\".",
+        "answer": "23870.41",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-23815"
+    },
+    {
+        "prompt": "An object has a mass of #8 kg#. The object's kinetic energy uniformly changes from #240 KJ# to # 640KJ# over #t in [0,  3  s]#.  What is the average speed of the object?\n\nThe unit of the answer should be \"ms^-1\".",
+        "answer": "328.7",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-16218"
+    },
+    {
+        "prompt": "A 75 g arrow is fired horizontally. The bowstring exerts an average force of 65 N on the arrow over a distance of 0.90 m. With what speed does the arrow leave the bowstring?\n\nThe unit of the answer should be \"m/s\".",
+        "answer": "41.63",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-13886"
+    },
+    {
+        "prompt": "How many atoms are in {eq}3.4 \\times 10^1\n\n{/eq} grams of {eq}CO_2\n\n{/eq}?\n\nThe unit of the answer should be \"atoms\".",
+        "answer": "1.4e+24",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-05257"
+    },
+    {
+        "prompt": "A pot contains 243 g of water at 78{eq}^{\\circ}\n\n{/eq} C. If this water is heated and all evaporates to form steam at 100{eq}^{\\circ}\n\n{/eq} C, what is the change in the entropy of the H{eq}_2\n\n{/eq}O?\n\nThe unit of the answer should be \"J/K\".",
+        "answer": "1532.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-34357"
+    },
+    {
+        "prompt": "The muon lifetime is {eq}2.2\\times 10^{-6}\\;seconds {/eq}. Suppose you started with a million muons (at rest); how many on average would still be around {eq}2.2\\times 10^{-5}\\;seconds {/eq} later?\n\nThe unit of the answer should be \"muons\".",
+        "answer": "45.4",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-07081"
+    },
+    {
+        "prompt": "A potter's wheel with rotational inertia of 45 kg m{eq}^2\n\n{/eq}, is spinning freely at 40 rpm. The potter drops a lump of clay onto the wheel where it sticks a distance 1.2 m from the rotational axis at the wheel's center. If the subsequent angular speed of the wheel is 32 rpm, what is the clay's mass? (Hint: treat the clay as a point object, so I=mr{eq}^2\n\n{/eq})\n\nThe unit of the answer should be \"kg\".",
+        "answer": "7.8",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-23001"
+    },
+    {
+        "prompt": "During electrical storms, a lightning bolt can transfer 10 C of charge in {eq}{\\text{2}}{\\text{.0 }}\\mu {\\text{s}}\n\n{/eq} (the amount and the time can vary considerably). We can model such a bolt as a very long current-carrying wire. Assume that the earth's magnetic field is about {eq}{\\text{50 }}\\mu {\\text{T}}\n\n{/eq}. What is the field 1.0 km away?\n\nThe unit of the answer should be \"T\".",
+        "answer": "0.001",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-42507"
+    },
+    {
+        "prompt": "What is the speed of a mosquito flying at 3 m/s that encounters a breeze blowing at 3 m/s in the opposite direction?\n\nThe answer should be dimensionless.",
+        "answer": "0.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-32823"
+    },
+    {
+        "prompt": "A rectangular wooden block of weight W floats with exactly one-half of its volume below the waterline. The wooden block is removed from the water bath and placed in an unknown liquid. In this liquid, only one-third of the wooden block is submerged. The mass of the wooden block is 20 g. What is the density of the unknown liquid?\n\nThe unit of the answer should be \"kg/m^3\".",
+        "answer": "1500.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-14486"
+    },
+    {
+        "prompt": "Your right rear tire has to support a weight of 3,000 N. Normally the contact area of your tire with the road is 200 square centimeters. If the pressure in your tire is suddenly reduced from 32 pounds per square inch to 16 pounds per square inch, what must be the new contact area to support the car?\n\nThe unit of the answer should be \"cm^2\".",
+        "answer": "400.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-06531"
+    },
+    {
+        "prompt": "An object with a mass of #400 g# is dropped into #660 mL# of water at #0^@C#.  If the object cools by #72 ^@C# and the water warms by #3 ^@C#, what is the specific heat of the material that the object is made of?\n\nThe unit of the answer should be \"kJkg^-1K^-1\".",
+        "answer": "0.28",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-17585"
+    },
+    {
+        "prompt": "Toxic cyanide ions can be removed from wastewater by adding hypochlorite:\n\n{eq}2CN^{-}(aq) \\ + \\ 5OCl^{-}(aq) \\ + \\ H_{2}O(l)\\rightarrow N_{2}(g) \\ + \\ 2HCO^{-}_{3}(aq) \\ + \\ 5Cl^{-}(aq)\n\n{/eq}\n\nHow many liters of 0.125 M {eq}OCl^{-}\n\n{/eq} are required to remove them {eq}CN^{-}\n\n{/eq} in {eq}3.4 \\times 10^{6}\n\n{/eq} L of wastewater in which the {eq}CN^{-}\n\n{/eq} concentration is 0.40 mg/L?\n\nThe unit of the answer should be \"L\".",
+        "answer": "418.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-09843"
+    },
+    {
+        "prompt": "A fighter jet is launched from an aircraft carrier with the aid of its own engines and a steam-powered catapult. The thrust of its engines is {eq}2.00 \\times 10^5 \\; N\n\n{/eq}. In being launched from rest it moves through a distance of 87 m and has a kinetic energy of {eq}4.40 \\times 10^7 \\; J\n\n{/eq} at lift-off. What is the work done on the jet by the catapult?\n\nThe unit of the answer should be \"J\".",
+        "answer": "26600000.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-08155"
+    },
+    {
+        "prompt": "A mass of 2.4 kg of air 170 kPa and 25 {eq}^o{/eq}C is contained in a gas-tight, frictionless piston-cylinder device. The air now compressed to a final pressure of 610 kPa. During the process, heat is transferred from the air such that the temperature inside  the cylinder remains constant.\n\nCalculate the work input {eq}W = \\rule{3cm}{0.15mm}{/eq} kJ. during this process.\n\nRound your answer to the nearest integer.\n\nThe unit of the answer should be \"kJ\".",
+        "answer": "262.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-30165"
+    },
+    {
+        "prompt": "A skateboarder starts down the left side of a ramp with an initial speed of 5.4 m/s. If nonconservative forces, such as kinetic friction and air resistance, are negligible, what would be the height h of the highest point reached by the skateboarder on the right side of the ramp?\n\nThe unit of the answer should be \"m\".",
+        "answer": "1.48",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-44630"
+    },
+    {
+        "prompt": "Lipoprotein is a technique for removing fat deposits from various areas of the body. How many liters of fat would have to be removed to result in a 5.0-pound weight loss? The density of human fat is 0.94 g/mL.\n\nThe unit of the answer should be \"L\".",
+        "answer": "2.4",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-00172"
+    },
+    {
+        "prompt": "Proxima Centauri is the nearest star other than our own Sun. It is located at a distance of {eq}3.98 \\times 10^{13} {/eq} km from us. About how many minutes does it take light from Proxima Centauri to reach us? (Speed of light = {eq}3.00 \\times 10^{8} {/eq} m/s).\n\nThe unit of the answer should be \"minutes\".",
+        "answer": "2200000.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-02106"
+    },
+    {
+        "prompt": "A 1.8 {eq}\\mu F\n\n{/eq} capacitor and a 3.9 {eq}\\mu F\n\n{/eq} capacitor are connected in parallel across a 240 V potential difference. Calculate the total energy in joules stored in the capacitors.\n\nThe unit of the answer should be \"J\".",
+        "answer": "0.164",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-06894"
+    },
+    {
+        "prompt": "A cylinder has inner and outer radii of #5 cm# and #11 cm#, respectively, and a mass of #5 kg#.  If the cylinder's frequency of  counterclockwise rotation about its center changes from #12 Hz# to #6 Hz#, by how much does its angular momentum change?\n\nThe unit of the answer should be \"kgm^2s^-1\".",
+        "answer": "1.376",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-47394"
+    },
+    {
+        "prompt": "Potassium nitrate decomposes to potassium nitrite and oxygen.\n\n{eq}\\rm 2KNO_3(s) \\rightarrow 2KNO_2(s) + O_2(g)\n\n{/eq}\n\nWhat volume, in liters, of {eq}\\rm O_2\n\n{/eq} can be produced from the decomposition of 54.0 g of {eq}\\rm KNO_3\n\n{/eq} at 45°C and 1.15 atm?\n\nThe unit of the answer should be \"L\".",
+        "answer": "6.1",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-05482"
+    },
+    {
+        "prompt": "How many mL of water at 25 degrees Celsius with a density of 0.997 g/mL must be mixed with 176 mL of coffee at 96.2 degrees Celsius so that the resulting combination will have a temperature of 61.8 degrees Celsius? Assume that coffee and water have the same density and the same specific heat across the temperature range.\n\nThe unit of the answer should be \"mL\".",
+        "answer": "165.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-00767"
+    },
+    {
+        "prompt": "Calculate the radius of iridium atom, given that {eq}\\text{Ir}\n\n{/eq} has an FFC crystal structure, a density of 22.4 {eq}g/cm^3\n\n{/eq} and an atomic weight of 192.2 {eq}g/mol\n\n{/eq}.\n\nThe unit of the answer should be \"pm\".",
+        "answer": "135.7",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-01352"
+    },
+    {
+        "prompt": "An electron has a kinetic energy of 7.00 10-17 J. It moves on a circular path that is perpendicular to a uniform magnetic field of magnitude 4.40 10-5 T. Determine the radius of the path?\n\nThe unit of the answer should be \"m\".",
+        "answer": "1.59",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-00439"
+    },
+    {
+        "prompt": "It takes  {eq}156 \\ kJ\n\n{/eq} of work to accelerate a car from  {eq}20.4 \\ m / s\n\n{/eq} to  {eq}28.2 \\ m / s\n\n{/eq}. What is the car's mass?\n\nThe unit of the answer should be \"kg\".",
+        "answer": "823.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-49460"
+    },
+    {
+        "prompt": "Determine the magnitude of the force on an electron traveling 5.95x10{eq}^5\n\n{/eq}m/s horizontally to the east in a vertically upward magnetic field of strength 0.28T.\n\nThe unit of the answer should be \"N\".",
+        "answer": "2.67e-14",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-26412"
+    },
+    {
+        "prompt": "When 51 J of heat is added to 13 g of a liquid, its temperature rises from 10.2 degrees C to 12.6 degrees C. What is the heat capacity of the liquid?\n\nThe unit of the answer should be \"J/g°C\".",
+        "answer": "1.634",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-09035"
+    },
+    {
+        "prompt": "A group of students performed the Pendulum experiment and they obtained the following results:\n\n\nL (cm)T (s)\n501.42\n721.70\n851.85\n1062.06\n1252.24\nFrom your value of the slope, determine g, the acceleration due to gravity.\n\nThe unit of the answer should be \"m/s^2\".",
+        "answer": "9.87",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-28387"
+    },
+    {
+        "prompt": "A body oscillates with simple harmonic motion along the x-axis. Its displacement varies with time according to the equation x(t) = A sin(wt + o) . If A = 5 m, w = 2.931 rad/s, and o = 1.0472 rad, what is the acceleration of the body at t = 2 s?\n\nNote: The argument of the sine function is in radians rather than degrees. Answer in units of m/s{eq}^2\n\n{/eq}.\n\nThe unit of the answer should be \"m/s^2\".",
+        "answer": "-25.17",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-09767"
+    },
+    {
+        "prompt": "A long solenoid has 140 turns/cm and carries current {eq}i\n\n{/eq}. An electron moves within the solenoid in a circle of radius 2.30 cm perpendicular to the solenoid axis. The speed of the electron is 0.052 c (c = speed of light). Find the current {eq}i\n\n{/eq} in the solenoid.\n\nThe unit of the answer should be \"A\".",
+        "answer": "0.22",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-06392"
+    },
+    {
+        "prompt": "To treat a burn on your hand, you decide to place an ice cube on the burned skin. The mass of the ice cube is 15.0 g, and its initial temperature is -11.0  C. The water resulting from the melted ice reaches the temperature of your skin, 29.4  C. How much heat is absorbed by the ice cube and resulting water?\n\nThe unit of the answer should be \"J\".",
+        "answer": "7193.5",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-06579"
+    },
+    {
+        "prompt": "A bomber flies horizontally with a speed of 367 m/s relative to the ground. The altitude of the bomber is 4020 m and the terrain is level. Neglect the effects of air resistance. The acceleration of gravity is 9.8 {eq}m/s^2\n\n{/eq}.\n\nHow far from the point vertically under the point of release does a bomb hit the ground? Answer in units of m.\n\nThe unit of the answer should be \"m\".",
+        "answer": "10500.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-31020"
+    },
+    {
+        "prompt": "A proton is released from rest inside a region of constant, uniform electric field {eq}E_1\n\n{/eq} pointing due North. 12.3 seconds after it is released, the electric field instantaneously changes to a constant, uniform electric field {eq}E_2\n\n{/eq} pointing due South. 8.49 seconds after the field changes, the proton has returned to its starting point. What is the ratio of the magnitude of {eq}E_2\n\n{/eq} to the magnitude of {eq}E_1\n\n{/eq}? You may neglect the effects of gravity on the proton.\n\nThe answer should be dimensionless.",
+        "answer": "0.2",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-49831"
+    },
+    {
+        "prompt": "A magnetic field of 0.6 Tesla points into the page. A particle of charge -29 nC and mass 0.8 {eq}\\mu\n\n{/eq}g is shot into the field with a velocity of 0.8 km/s heading north. What is the radius of the orbit (in meters)?\n\nThe unit of the answer should be \"m\".",
+        "answer": "36.8",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-44116"
+    },
+    {
+        "prompt": "An electron in a uniform electric field increases its speed from {eq}2.0 \\times 10^7\\ m / s\n\n{/eq} to {eq}4.0 \\times 10^7\\ m / s\n\n{/eq} over a distance of {eq}1.2\\ cm\n\n{/eq}. What is the electric field strength?\n\nThe unit of the answer should be \"N/C\".",
+        "answer": "280000.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-39389"
+    },
+    {
+        "prompt": "Two charges {eq}\\rm q_1 = 4.1 \\times 10^{-6}\\ C,\\ q_2 = 2.6 \\times 10^{-6}\\ C\n\n{/eq} are separated by a distance of {eq}\\rm d = 2.75\\ m\n\n{/eq}. At what distance, {eq}\\rm r\n\n{/eq} in meters, from the first charge is the electric field zero?\n\nThe unit of the answer should be \"m\".",
+        "answer": "1.53",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-34741"
+    },
+    {
+        "prompt": "In a certain binary-star system, each star has the a mass of {eq}1.28 \\times 10^{30}{/eq} kg, and they revolve about their center of mass. The distance between them is {eq}1.1\\times 10^8 km{/eq}. What is their period of revolution in Earth years?\n\nThe unit of the answer should be \"years\".",
+        "answer": "0.574",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-37483"
+    },
+    {
+        "prompt": "What weight could be supported by a rotating object if it had a mass of 98 grams and if it were revolving in a horizontal circle, 50 cm diameter, and making 240 rev/min?\n\nThe unit of the answer should be \"N\".",
+        "answer": "15.4754",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-32493"
+    },
+    {
+        "prompt": "Calculate the number of atoms of C of 25.0g C?\n\nThe unit of the answer should be \"atoms\".",
+        "answer": "1.25e+24",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-45478"
+    },
+    {
+        "prompt": "Calculate the repeat distance for dislocations in a small-angle tilt grain boundary in silicon with a misorientation angle of {eq}\\theta\n\n{/eq}=2{eq}^\\circ\n\n{/eq}\n\nThe unit of the answer should be \"nm\".",
+        "answer": "0.384",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-01966"
+    },
+    {
+        "prompt": "A long non-conducting cylinder has a charge density  (5.48 C/m⁴) * r, where r is in meters. Concentric around it is a hollow metallic cylindrical shell. What is the electric field at 2 cm from the central axis. Assume the length is very long compared to the diameter of the shell, and neglect edge effects.\n\nThe unit of the answer should be \"N/C\".",
+        "answer": "82500000.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-39748"
+    },
+    {
+        "prompt": "Calculate the enthalpy change when 10.0 g of water is heated from 10.0°C to 25.0°C.\n\nThe unit of the answer should be \"J\".",
+        "answer": "630.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-37629"
+    },
+    {
+        "prompt": "You and a friend work in buildings five equal-length blocks apart, and you plan to meet for lunch. Your friend strolls leisurely at 1.2 m/s, while you like a brisker pace of 1.6 m/s. Knowing this, you pick a restaurant between the two buildings at which you and your friend will arrive at the same instant if both of you leave your respective buildings at the same instant. In blocks, how far from your building is the restaurant?\n\nThe unit of the answer should be \"blocks\".",
+        "answer": "2.9",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-01275"
+    },
+    {
+        "prompt": "An airtight box has a removable lid of area {eq}2.87*10^{-2} \\ m^2\n\n{/eq} and negligible weight. The box is taken up a mountain where the air pressure outside the box is {eq}7.20*10^4 \\ Pa\n\n{/eq}. The inside of the box is completely evacuated.\n\nWhat is the magnitude of the force required to pull the lid off the box?\n\nThe unit of the answer should be \"N\".",
+        "answer": "2070.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-47804"
+    },
+    {
+        "prompt": "Small quantities of hydrogen can be prepared by the addition of hydrochloric acid to zinc. A sample of 259 mL of hydrogen was collected over water at 35 degree C and 801 mmHg. What mass of hydrogen was collected?\n\n2HCl (aq) + Zn (s) ZnCl2 (aq) + H2(g)\n\nThe unit of the answer should be \"g\".",
+        "answer": "0.020456",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-48856"
+    },
+    {
+        "prompt": "Given: Mass{eq}_1 = 0.09 kg;\n\n{/eq} Mass{eq}_2 = 0.139 kg;\n\n{/eq} Acceleration {eq}= 1.803 m/s^2; g = 9.8m/s^2\n\n{/eq}. What is the calculated applied force? (Neglect friction.)\n\nThe unit of the answer should be \"N\".",
+        "answer": "0.413",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-31694"
+    },
+    {
+        "prompt": "How much limestone in kilograms would be required to completely neutralize a {eq}\\displaystyle\n\n5.2 \\times 10^{-9}\n\n{/eq} L lake containing {eq}\\displaystyle\n\n5.0 \\times 10^{-3}\n\n{/eq} g of {eq}\\displaystyle\n\nH_2SO_4\n\n{/eq} per liter?\n\nThe unit of the answer should be \"kg\".",
+        "answer": "27000.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-25298"
+    },
+    {
+        "prompt": "A buffer is prepared by mixing 500 mL of 0.4 M disodium phosphate and 500 ml of 0.2 M sodium phosphate (pK1 = 2.10; pK2 = 6.70; pK3 = 12.30) Calculate the pH of this buffer.\n\nThe answer should be dimensionless.",
+        "answer": "12.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-24568"
+    },
+    {
+        "prompt": "When light with a wavelength of 218 nm is incident on a certain metal surface, electrons are ejected with a maximum kinetic energy of 3.31 * 10{eq}^{-19}\n\n{/eq} J. Determine the wavelength of light that should be used to double the maximum kinetic energy of the electrons ejected from this surface.\n\nThe unit of the answer should be \"nm\".",
+        "answer": "159.9",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-33635"
+    },
+    {
+        "prompt": "A 0.500 M solution of a weak base has a pH of 9.20. What is the base hydrolysis constant, Kb, for the weak base?\n\nThe unit of the answer should be \"e-10\".",
+        "answer": "5.024",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-21662"
+    },
+    {
+        "prompt": "Nickel reacts with excess aqueous hydrochloric acid to produce hydrogen. Calculate the mass of pure {eq}Ni\n\n{/eq} that will produce 20.2 L of hydrogen at a pressure of 0.826 atm and a temperature of 32.5 degrees Celsius.\n\n{eq}Ni + 2HCl \\to NiCl_2 + H_2\n\n{/eq}\n\nThe unit of the answer should be \"g\".",
+        "answer": "39.03",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-42167"
+    },
+    {
+        "prompt": "Two wires are identical, except that one is aluminum and one is nichrome. The aluminum wire has a resistance of 0.17 O. What is the resistance of the nichrome wire?\n\nThe unit of the answer should be \"Ω\".",
+        "answer": "6.68",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-00656"
+    },
+    {
+        "prompt": "A child of mass 44.0 kg is sitting on a horizontal seesaw at a distance of 2.10 m from the supporting axis. What is the magnitude of the torque about the axis due to the weight of the child?\n\nThe unit of the answer should be \"N⋅m\".",
+        "answer": "906.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-45966"
+    },
+    {
+        "prompt": "A tank containing oil is in the shape of a downward-pointing cone with its vertical axis perpendicular to ground level.The height h of the tank is 16 feet, the circular top of the tank has radius r = 8 feet, and that the oil inside the tank weighs 56 pounds per cubic foot. How much work (W) does it take to pump oil from the tank to an outlet that is 1 feet above the top of the tank if, prior to pumping, there is only a half-tank of oil?\n\nThe unit of the answer should be \"ft*lb\".",
+        "answer": "82570.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-25620"
+    },
+    {
+        "prompt": "An astronaut, of mass, 70kg, carries an empty oxygen tank, of mass, 14kg. He throws the tank away from himself with a speed of 3m/s. With what velocity does the astronaut start to move through space?\n\nThe unit of the answer should be \"m/s\".",
+        "answer": "0.6",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-00426"
+    },
+    {
+        "prompt": "Consdier two identical Teflon rods are 10 centimeters long and rubbed with fur so that they each have a total negative charge of 20 microCoulombs that is uniformly distributed along their length. They are arranged along the same axis, with their ends 5 centimeters apart. What is the magnitude of the electrostatic force felt by each rod in Newtons?\n\nThe unit of the answer should be \"N\".",
+        "answer": "360.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-11954"
+    },
+    {
+        "prompt": "Two small beads having positive charges q{eq}_1\n\n{/eq} = 19q and q{eq}_2\n\n{/eq} = q are fixed at the opposite ends of a horizontal insulating rod of length d = 1.50 m. The bead with charge q{eq}_1\n\n{/eq} is at the origin. A third small, charged bead is free to slide on the rod. At what position x is the third bead in equilibrium?\n\nThe unit of the answer should be \"m\".",
+        "answer": "1.22",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-48984"
+    },
+    {
+        "prompt": "A 10.0 L vessel which holds a sample of {eq}O_2\n\n{/eq} gas at 25 Celsius and 755 mmHg develops a leak, and 6.00 grams of oxygen escape before the leak is repaired. What is the pressure in the vessel after the repair if the temperature remains at 25 Celsius?\n\nThe unit of the answer should be \"mmHg\".",
+        "answer": "406.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-05688"
+    },
+    {
+        "prompt": "The manufacture of aluminum includes the production of cryolite (Na_3AlF_6) from the following reaction:\n\n6HF  + 3NaAlO_2 -->Na_3AlF_6  +3H_2O + Al_2O_3\n\nHow much NaAlO_2 (sodium aluminate) is required to produce 4.80 kg of Na_3AlF_6?\n\n........kg\n\nThe unit of the answer should be \"kg\".",
+        "answer": "5.6215",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-22297"
+    },
+    {
+        "prompt": "What is the magnitude of the orbital velocity of the earth when the radius of the earth's orbit around the sun is 150,000,000?\n\nThe unit of the answer should be \"km/sec\".",
+        "answer": "30.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-47458"
+    },
+    {
+        "prompt": "The tape in a videotape cassette has a total length 191 m and can play for 1.9 h. As the tape starts to play, the full reel has an outer radius of 35 mm and an inner radius of 11 mm. At some point during the play, both reels will have the same angular speed.\n\nWhat is this common angular speed? Answer in units of rad/s.\n\nThe unit of the answer should be \"rad/s\".",
+        "answer": "1.076",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-27155"
+    },
+    {
+        "prompt": "Calculate the pH of the resulting solution when {eq}\\displaystyle \\rm 2.00 \\ mL\n\n{/eq} of the {eq}\\displaystyle \\rm 1.80 \\ M\n\n{/eq} acetic acid is diluted to make a {eq}\\displaystyle \\rm 250.0 \\ mL\n\n{/eq} solution.\n\nThe answer should be dimensionless.",
+        "answer": "3.301",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-45967"
+    },
+    {
+        "prompt": "A metal ball of mass 1.8 kg with an initial temperature of 46.5{eq}^{\\circ}\n\n{/eq} C is dropped into a container of 3 kg of water at 15{eq}^{\\circ}\n\n{/eq} C. If the final temperature is 22.6{eq}^{\\circ}\n\n{/eq} C, what is the specific heat of the metal?\n\nThe unit of the answer should be \"J/(kg°C)\".",
+        "answer": "2219.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-33835"
+    },
+    {
+        "prompt": "The enthalpy difference between the axial and equatorial conformers of methylcyclohexane is 7.11 kj/mol. assuming that the entropy difference between these two conformers is negligible, calculate the equilibrium constant at room temperature for the process\n\nThe answer should be dimensionless.",
+        "answer": "0.05671",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-27883"
+    },
+    {
+        "prompt": "A tractor, of mass 5000kg, is used to tow a car, of mass 2500kg. The tractor moved, with a speed of 3 meters per second. Just before the towing rope cuts, calculate (a) the speed of the tractor, immediately after the rope cuts.\n\nThe unit of the answer should be \"m/s\".",
+        "answer": "4.5",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-34180"
+    },
+    {
+        "prompt": "A pair of in-phase stereo speakers are placed side by side, 0.85 m apart. You stand directly in front of one of the speakers, 1.1 m from the speaker. What is the lowest frequency that will produce constructive interference at your location?\n\nThe unit of the answer should be \"Hz\".",
+        "answer": "1178.571",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-34954"
+    },
+    {
+        "prompt": "NASA is designing a mission to explore titan, the largest moon of Saturn. Titan has numerous hydrocarbon lakes containing a mix  of methane and ethane in unknown proportions. As part of the mission, a small submersible vehicle will exlpore Kraken Mare, the largest of these lake to determine, among other things, how deep it is. Assuming maximum depth od the lake  is less than 400 meters how much pressure in atmospheres must the submersible be designed to withstand? Assume the surface pressure on Titan is 147 kilopascals, surface temperature is 94 Kelvin and gravity is 1.35 m/s{eq}^2\n\n{/eq}.\n\nThe specific gravity of liquid methane is 0.415 and specific gravity of liquid ethane is 0.546\n\nThe unit of the answer should be \"atm\".",
+        "answer": "4.3606",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-00640"
+    },
+    {
+        "prompt": "Consider a particle of mass m confined to a three-dimensional cube of length {eq}\\ell {/eq} so small that the particle motion is relalivistic. Obtain an expression for the allowed particle energies in this case. Compute the ground-state energy for an electron if {eq}\\ell=10fm(10^{-5}nm) {/eq}, a typical nuclear dimension.\n\nThe unit of the answer should be \"MeV\".",
+        "answer": "8.1",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-34815"
+    },
+    {
+        "prompt": "Imagine that you have a  {eq}7.00 \\ L\n\n{/eq} gas tank and a  {eq}4.00 \\ L\n\n{/eq} gas tank. You need to fill one tank with oxygen and the other with acetylene to use in conjunction with your welding torch. If you fill the larger tank with oxygen to a pressure of  {eq}145 \\ atm\n\n{/eq},  to what pressure should you fill the acetylene tank to ensure that you run out of each gas at the same time? Assume ideal behaviour for all gases.\n\nThe unit of the answer should be \"atm\".",
+        "answer": "101.5",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-24541"
+    },
+    {
+        "prompt": "An observer S detects two flashes of light. A big flash occurs at {eq}x_{1}\n\n{/eq} = 1200 m and 5.00 s later, a small flash occurs at {eq}x_{2}\n\n{/eq} = 480 m as detected by the observer at S{eq}'\n\n{/eq}. The two flashes occur at a single coordinate x{eq}'\n\n{/eq}.\n\nWhat is the time interval between the flashes?\n\nThe unit of the answer should be \"s\".",
+        "answer": "4.99",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-32281"
+    },
+    {
+        "prompt": "A 5.00 g charged insulating ball hangs on a 30.0 cm long string in a uniform horizontal electric field. Given the charge on the ball is {eq}1.00 \\mu C\n\n{/eq} and the string makes an 8° angle with the vertical, find the strength of the field.\n\nThe unit of the answer should be \"N/C\".",
+        "answer": "6800.0",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-44807"
+    },
+    {
+        "prompt": "An electric toy car with a mass of #2 kg# is powered by a motor with a voltage of #4 V# and a current supply of #1 A#.  How long will it take for the toy car to accelerate from rest to #3 m/s#?\n\nThe unit of the answer should be \"s\".",
+        "answer": "2.25",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-28787"
+    },
+    {
+        "prompt": "A small object, which has a charge q = 6.7  C and mass {eq}m = 9.60 \\times 10^{-5}\n\n{/eq} kg, is placed in a constant electric field. Starting from rest, the object accelerates to a speed of {eq}2.06 \\times 10^3\n\n{/eq} m/s in a time of 1.03 s. Determine the magnitude of the electric field. Answer in N/C.\n\nThe unit of the answer should be \"N/C\".",
+        "answer": "0.0287",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-01399"
+    },
+    {
+        "prompt": "The mass of the ocean is about #1.8 x 10^21 kg#. If the ocean contains 1.076% by mass sodium ions, #Na^+#, what is the mass in kilograms of #Na^+# in the ocean?\n\nThe unit of the answer should be \"xx10^19*kg\".",
+        "answer": "1.8",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-05451"
+    },
+    {
+        "prompt": "At a certain temperature, 0 680 mol of SO j is placed in a 1 50-L container.\n\n2 SO_3(g) <=> 2 SO_2(g) + O_2(g)\n\nAt equilibrium, 0.100 mol of O_2 is present. Calculate K_c.\n\nK_c =\n\nThe answer should be dimensionless.",
+        "answer": "0.0116",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-07942"
+    },
+    {
+        "prompt": "What mass of iron contains the same number of atoms as 70.05 g of nitrogen?\n\nThe unit of the answer should be \"g\".",
+        "answer": "279.3",
+        "task": "science",
+        "source": "webinstruct",
+        "id": "science-webinstruct-06038"
+    }
+]

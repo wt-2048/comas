@@ -1,0 +1,17 @@
+# including default.yaml
+defaults:
+  - default
+  - _self_
+
+agent_workflow: "multi-agents-debate"
+
+workflow_args:
+  template_id: -1 # deprecated
+  num_rounds: 1
+  max_others: 0
+  contain_self: true
+  shuffle_responses: true
+
+agents:
+  - agent-0:
+      pretrain: "/mnt/user/model/qwen2.5-3b-instruct"

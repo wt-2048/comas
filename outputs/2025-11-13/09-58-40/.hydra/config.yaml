@@ -1,0 +1,63 @@
+ray:
+  address: null
+  num_workers: 1
+  gpus_per_worker: 1
+  cpus_per_worker: 6
+  log_to_driver: true
+  local_mode: false
+env:
+  name: <你的任务名>
+  num_envs: 8
+  max_episode_steps: 128
+  seed: 42
+rollout:
+  mode: steps
+  n_steps: 1024
+  min_trajectories: 8
+  drop_incomplete: false
+  reset_on_done: true
+trainer:
+  algo: ppo
+  total_epochs: 1
+  updates_per_epoch: 4
+  batch_size: 1024
+  minibatch_size: 256
+  gamma: 0.99
+  gae_lambda: 0.95
+  normalize_advantage: true
+  clip_ratio: 0.2
+  value_coef: 0.5
+  entropy_coef: 0.01
+  max_grad_norm: 1.0
+  bootstrap_value: true
+  replay_buffer:
+    clear_on_epoch_start: true
+    allow_empty: false
+    fields:
+    - obs
+    - act
+    - logp
+    - rew
+    - done
+    - value
+experience_maker:
+  compute_value_with_target: false
+  record_values: true
+  record_dones: true
+  record_rewards: true
+  align_if_empty: false
+default_agent:
+  save_path: /root/saves/single_gpu/save
+  ckpt_path: /root/saves/single_gpu/ckpt
+  max_model_len: 8192
+  policy:
+    type: actor_critic
+    actor: <你的策略网络定义或名称>
+    critic: <你的价值网络定义或名称>
+  optim:
+    lr: 0.0003
+    weight_decay: 0.0
+log:
+  interval_steps: 256
+eval:
+  enable: false

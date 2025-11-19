@@ -1,0 +1,70 @@
+# 继承原 comas 配置（你当前命令里 --config-name comas 的那套）
+defaults:
+  - comas
+
+# 只保留一个 agent，显存占用最小化
+agents:
+  - agent-0:
+      pretrain: /root/siton-data-WWDisk/wt/Qwen2.5-3B-Instruct
+
+# 单机单卡稳定设置
+shared_agents: true
+parallel_loading: false
+workflow_version: old
+
+# 数据与评测（沿用你命令行的设置）
+prompt_data: json@/root/siton-data-WWDisk/wt/CoMAS-main/datasets/blended
+extra_eval_dir: /root/siton-data-WWDisk/wt/CoMAS-main/datasets/separated
+extra_eval_tasks: [math, coding, science]
+input_key: prompt
+label_key: answer
+add_prompt_suffix: null
+mask_truncated_completions: true
+packing_samples: false      # 关掉 pack，省显存，避免 flash-attn 依赖
+
+# 单卡显存友好配置（与日志一致或更保守）
+default_agent:
+  colocate_all_models: true
+  actor_num_nodes: 1
+  actor_num_gpus_per_node: 1
+  critic_num_nodes: 1
+  critic_num_gpus_per_node: 1
+  ref_num_nodes: 1
+  ref_num_gpus_per_node: 1
+  reward_num_nodes: 1
+  reward_num_gpus_per_node: 1
+
+  vllm_num_engines: 1
+  vllm_tensor_parallel_size: 1
+  vllm_sync_backend: gloo
+  vllm_gpu_memory_utilization: 0.90
+  vllm_enable_sleep: true
+
+  bf16: true
+  zero_stage: 2
+  adam_offload: false
+  gradient_checkpointing: true
+  gradient_checkpointing_use_reentrant: false
+  flash_attn: false         # 训练侧禁用 Flash-Attn，规避 CUDA/编译环境分歧
+
+  # batch 与长度（更保守，稳过）
+  micro_train_batch_size: 2
+  train_batch_size: 32
+  micro_rollout_batch_size: 2
+  rollout_batch_size: 32
+  prompt_max_len: 512
+  generate_max_len: 256
+
+  # 其余与你日志一致
+  lora_rank: 16
+  lora_dropout: 0.05
+  target_modules: all-linear
+  top_p: 1.0
+  temperature: 1.0
+  eval_temperature: 0.0
+  n_samples_per_prompt: 4
+  actor_learning_rate: 1e-6
+  critic_learning_rate: 9e-6
+  lr_warmup_ratio: 0.03
+  save_path: /root/siton-data-WWDisk/wt/CoMAS-main/saves/single_gpu/save
+  ckpt_path: /root/siton-data-WWDisk/wt/CoMAS-main/saves/single_gpu/ckpt

@@ -1,0 +1,42 @@
+#!/bin/bash
+cd maslab
+
+# parameters
+MODEL_NAME=${1:-"qwen2.5-3b-instruct"}
+MODEL_PATH=${2:-"/root/siton-data-WWDisk/wt/Qwen2.5-3B-Instruct"}
+echo "Evaluate model: $MODEL_NAME ($MODEL_PATH)"
+
+# start vLLM server
+python -m vllm.entrypoints.openai.api_server --host localhost --port 8000 --model ${MODEL_PATH} --served-model-name ${MODEL_NAME} --gpu-memory-utilization 0.9 --max-model-len 32768 --tensor-parallel-size 1 &
+VLLM_PID=$!
+sleep 100
+
+# test settings
+DATASETS=("GSM8K" "MATH-500" "HumanEval" "MBPP" "SciBench" "GPQA" "MMLU")
+METHODS=("vanilla" "self_consistency" "llm_debate" "autogen")
+
+for dataset in "${DATASETS[@]}"; do
+    for method in "${METHODS[@]}"; do
+        echo "==== Model: $MODEL_NAME | Dataset: $dataset | Method: $method ===="
+        results_dir="../results/${MODEL_NAME}"
+        inference_file="${results_dir}/${dataset}/${method}/inference.jsonl"
+        evaluation_file="${results_dir}/${dataset}/${method}/evaluation.json"
+        python inference.py \
+            --test_dataset_name "$dataset" \
+            --method_name "$method" \
+            --model_name "$MODEL_NAME" \
+            --model_temperature 0.7 \
+            --output_path "$inference_file"
+        if [ -f "$inference_file" ]; then
+            python evaluation.py \
+                --dataset "$dataset" \
+                --result_file "$inference_file" \
+                --output_file "$evaluation_file"
+        else
+            echo "[WARNING] inference file not found: $inference_file"
+        fi
+    done
+done
+
+# kill vLLM server
+kill ${VLLM_PID} 2>/dev/null
